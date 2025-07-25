@@ -160,7 +160,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Fair Division",
-  "body": " Fair Division   Divider Chooser    Lone Divider    Lone-Divider Case 2    Method of Sealed Bids   "
+  "body": " Fair Division   1. My friend and I decide have pizza for dinner. We order pizza which is half red sauce with pepperoni and half garlic sauce with ham and pineapple. To my friend, pizza is pizza. He has no preference for one type of pizza over another. On the other hand, I have an allergy to oregano and cannot eat any red sauce. It gives me a horrible stomach ache and I’m grumpy for about eight hours.     What is a fair way to divide this pizza so that my friend and I both believe we are getting a value of at least of the pizza.    My friend never remembers that I do not eat red sauce. Therefore, he divides the pizza so that each half has exactly half red sauce and half garlic sauce. Am I able to choose a slice where I receive of the value of the pizza?    Suppose instead, I slice the pizza. When I do so, because I value the red sauce part as nothing, I divide the pizza so that one slice is all garlic sauce and the other slice is all red sauce. Have I divided the pizza in such a way that each slice is worth to me?    Is there a way that I could divide the pizza in order to have each slice worth to me and have all the red sauce on one of the slices?    In the case above, which of the slices with my friend choose?     The basic issue at all fair division problems can be stated in a reasonably simple terms: How can something that must be shared by a set of competing parties be divided among them in a way that ensures that each party receives a fair share? Of course, part of the answer to this question will involve defining what we mean by a fair share.  We are going to start with the most common method for fair division, that of the divider-chooser. This is the problem where there are two people and one thing to divide. One person has chosen to do the cutting, and then the other person gets to choose which part they want.   Rationality      _________________________________________________________________________________________________________________   Cooperation       Privacy       Symmetry      2.    Fair Share:        _______________________________________________________________________________________________________________________________________________  _______________________________________________________________________________________________________________________________________________    Divider Chooser    Lone Divider    Lone-Divider Case 2    Method of Sealed Bids   "
+},
+{
+  "id": "sec-fair-division-2-5",
+  "level": "2",
+  "url": "sec-fair-division.html#sec-fair-division-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Rationality "
+},
+{
+  "id": "sec-fair-division-2-8",
+  "level": "2",
+  "url": "sec-fair-division.html#sec-fair-division-2-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Cooperation "
+},
+{
+  "id": "sec-fair-division-2-10",
+  "level": "2",
+  "url": "sec-fair-division.html#sec-fair-division-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Privacy "
+},
+{
+  "id": "sec-fair-division-2-12",
+  "level": "2",
+  "url": "sec-fair-division.html#sec-fair-division-2-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Symmetry "
 },
 {
   "id": "sec-study-guide-4",
