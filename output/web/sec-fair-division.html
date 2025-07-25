@@ -103,14 +103,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.1';
+eBookConfig.runestone_version = '7.9.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.787a04695534ef1e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.cc203fa52565b593.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -232,19 +232,85 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-fair-division"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Fair Division</span>
 </h2>
-<section class="subsection" id="subsec-divider-chooser"><h3 class="heading hide-type">
+<section class="introduction" id="sec-fair-division-2"><div class="para" id="sec-fair-division-2-1">1. My friend and I decide have pizza for dinner. We order pizza which is half red sauce with pepperoni and half garlic sauce with ham and pineapple. To my friend, pizza is pizza. He has no preference for one type of pizza over another. On the other hand, I have an allergy to oregano and cannot eat any red sauce. It gives me a horrible stomach ache and I’m grumpy for about eight hours.<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-fair-division-2-2">
+<ol class="lower-alpha ol-marker-1" id="sec-fair-division-2-2-1">
+<li id="sec-fair-division-2-2-1-1">
+<div class="para" id="sec-fair-division-2-2-1-1-1">What is a fair way to divide this pizza so that my friend and I both believe we are getting a value of at least <span class="process-math">\(50%\)</span> of the pizza.<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec-fair-division-2-2-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec-fair-division-2-2-1-2">
+<div class="para" id="sec-fair-division-2-2-1-2-1">My friend never remembers that I do not eat red sauce. Therefore, he divides the pizza so that each half has exactly half red sauce and half garlic sauce. Am I able to choose a slice where I receive <span class="process-math">\(50%\)</span> of the value of the pizza?<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec-fair-division-2-2-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec-fair-division-2-2-1-3">
+<div class="para" id="sec-fair-division-2-2-1-3-1">Suppose instead, I slice the pizza. When I do so, because I value the red sauce part as nothing, I divide the pizza so that one slice is all garlic sauce and the other slice is all red sauce. Have I divided the pizza in such a way that each slice is worth <span class="process-math">\(50%\)</span> to me?<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec-fair-division-2-2-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec-fair-division-2-2-1-4">
+<div class="para" id="sec-fair-division-2-2-1-4-1">Is there a way that I could divide the pizza in order to have each slice worth <span class="process-math">\(50%\)</span> to me and have all the red sauce on one of the slices?<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec-fair-division-2-2-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="sec-fair-division-2-2-1-5">
+<div class="para" id="sec-fair-division-2-2-1-5-1">In the case above, which of the slices with my friend choose?<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item e"><a href="#sec-fair-division-2-2-1-5" title="Copy heading and permalink for Item e" aria-label="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-3">The basic issue at all fair division problems can be stated in a reasonably simple terms: How can something that must be shared by a set of competing parties be divided among them in a way that ensures that each party receives a fair share? Of course, part of the answer to this question will involve defining what we mean by a fair share.<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-4">We are going to start with the most common method for fair division, that of the divider-chooser. This is the problem where there are two people and one thing to divide. One person has chosen to do the cutting, and then the other person gets to choose which part they want.<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-5">
+<dfn class="terminology">Rationality</dfn><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-6"><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-fair-division-2-7">_________________________________________________________________________________________________________________<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-8">
+<dfn class="terminology">Cooperation</dfn><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-9"><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-fair-division-2-10">
+<dfn class="terminology">Privacy</dfn><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-11"><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-fair-division-2-12">
+<dfn class="terminology">Symmetry</dfn><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-13"><div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-fair-division-2-14">2.<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b2 r2 l2 t2 lines" colspan="3">Fair Share:</td>
+<td class="l m b2 r2 l0 t2 lines"></td>
+<td class="l m b2 r2 l0 t2 lines"></td>
+<td class="l m b2 r2 l0 t2 lines"></td>
+<td class="l m b2 r2 l0 t2 lines"></td>
+</tr></table></div>
+<div class="para" id="sec-fair-division-2-16">_______________________________________________________________________________________________________________________________________________<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-fair-division-2-17">_______________________________________________________________________________________________________________________________________________<div class="autopermalink" data-description="Paragraph"><a href="#sec-fair-division-2-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-divider-chooser"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="space"> </span><span class="title">Divider Chooser</span>
 </h3>
-<div class="autopermalink" data-description="Subsection 4.2.1: Divider Chooser"><a href="#subsec-divider-chooser" title="Copy permalink for Subsection 4.2.1: Divider Chooser">🔗</a></div></section><section class="subsection" id="subsec-lone-divider"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 4.2.1: Divider Chooser"><a href="#subsec-divider-chooser" title="Copy heading and permalink for Subsection 4.2.1: Divider Chooser" aria-label="Copy heading and permalink for Subsection 4.2.1: Divider Chooser">🔗</a></div></section><section class="subsection" id="subsec-lone-divider"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Lone Divider</span>
 </h3>
-<div class="autopermalink" data-description="Subsection 4.2.2: Lone Divider"><a href="#subsec-lone-divider" title="Copy permalink for Subsection 4.2.2: Lone Divider">🔗</a></div></section><section class="subsection" id="subsec-lone-divider-case-2"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 4.2.2: Lone Divider"><a href="#subsec-lone-divider" title="Copy heading and permalink for Subsection 4.2.2: Lone Divider" aria-label="Copy heading and permalink for Subsection 4.2.2: Lone Divider">🔗</a></div></section><section class="subsection" id="subsec-lone-divider-case-2"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Lone-Divider Case 2</span>
 </h3>
-<div class="autopermalink" data-description="Subsection 4.2.3: Lone-Divider Case 2"><a href="#subsec-lone-divider-case-2" title="Copy permalink for Subsection 4.2.3: Lone-Divider Case 2">🔗</a></div></section><section class="subsection" id="subsec-method-of-sealed-bids"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 4.2.3: Lone-Divider Case 2"><a href="#subsec-lone-divider-case-2" title="Copy heading and permalink for Subsection 4.2.3: Lone-Divider Case 2" aria-label="Copy heading and permalink for Subsection 4.2.3: Lone-Divider Case 2">🔗</a></div></section><section class="subsection" id="subsec-method-of-sealed-bids"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="space"> </span><span class="title">Method of Sealed Bids</span>
 </h3>
-<div class="autopermalink" data-description="Subsection 4.2.4: Method of Sealed Bids"><a href="#subsec-method-of-sealed-bids" title="Copy permalink for Subsection 4.2.4: Method of Sealed Bids">🔗</a></div></section><div class="autopermalink" data-description="Section 4.2: Fair Division"><a href="#sec-fair-division" title="Copy permalink for Section 4.2: Fair Division">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 4.2.4: Method of Sealed Bids"><a href="#subsec-method-of-sealed-bids" title="Copy heading and permalink for Subsection 4.2.4: Method of Sealed Bids" aria-label="Copy heading and permalink for Subsection 4.2.4: Method of Sealed Bids">🔗</a></div></section><div class="autopermalink" data-description="Section 4.2: Fair Division"><a href="#sec-fair-division" title="Copy heading and permalink for Section 4.2: Fair Division" aria-label="Copy heading and permalink for Section 4.2: Fair Division">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-apportionment.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-study-guide-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
