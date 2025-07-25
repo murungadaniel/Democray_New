@@ -62,149 +62,297 @@
             </ol>
             </p>
 
-            <p>
-                <ol>
-                <li>
-                    <p>
+            <activity>
+                <p>
                         Alison deposits <m>\$1{,}000</m> in a savings account that pays <m>5\%</m> interest,
-                        compounded <em>once per year</em>. Fill in the balance sheet for three years.
+                        compounded <m>\textit{once per year}</m>. Fill in the balance sheet for three years.
                     </p>
-                
-                <!-- div attr= class="center"-->
-                <table>
-                    <title></title>
-                    <tabular>
-                    <row header="yes">
-                        <cell halign="center">Year</cell>
-                        <cell halign="center">Beginning Balance ($)</cell>
-                        <cell halign="center">Interest Earned ($)</cell>
-                        <cell halign="center">Ending Balance ($)</cell>
+                    <tabular top="medium" bottom="medium" left="medium" right="medium">
+                    <row header="no">
+                        <cell halign="center" width="50%">Year</cell>
+                        <cell halign="center" width="50%">Beginning Balance ($)</cell>
+                        <cell halign="center" width="50%">Interest Earned ($)</cell>
+                        <cell halign="center" width="50%">Ending Balance ($)</cell>
                     </row>
                     <row class="odd">
-                        <cell halign="center">1</cell>
-                        <cell halign="center">1000</cell>
+                        <cell halign="center" >1</cell>
+                        <cell halign="center" >1000</cell>
                         <cell halign="center">50</cell>
-                        <cell halign="center">1050</cell>
+                        <cell halign="center" >1050</cell>
                     </row>
                     <row class="even">
                     <cell halign="center">2</cell>
                     <cell halign="center">1050</cell>
                     <cell halign="center"></cell>
                     <cell halign="center"></cell>
-                </row>
+                    </row>
                     <row class="odd">
                         <cell halign="center">3</cell>
                         <cell halign="center"></cell>
                         <cell halign="center"></cell>
                         <cell halign="center"></cell>
                     </row>
+                </tabular>
+                <answer>
+                    <p>
+                       <m>
+                            \begin{align}
+                            \text{F} &amp;= 1000 \left( 1 + \dfrac{0.05}{1} \right)^{1 \times 3}\\
+                            &amp;= \$1{,}157.63
+                            \end{align}
+                        </m> 
+                    </p>
+                </answer>
+            </activity>
+
+            <activity>
+                <p>
+                    A certificate of deposit (CD) offers <m>4\%</m> interest compounded <em>quarterly</em>. If  places <m>$500</m> in the CD, 
+                    complete the ledger for the first year (four quarters).
+                </p>
+            
+                <!-- div attr= class="center"-->
+                
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                    <row header="no">
+                        <cell halign="center">Quarter</cell>
+                        <cell halign="center">Beginning Balance ($)</cell>
+                        <cell halign="center">Interest Earned ($)</cell>
+                        <cell halign="center">Ending Balance ($)</cell>
+                    </row>
+                    <row class="odd">
+                        <cell halign="center">Q1</cell>
+                        <cell halign="center">500</cell>
+                        <cell halign="center">5</cell>
+                        <cell halign="center"></cell>
+                    </row>
+                    <row class="even">
+                        <cell halign="center">Q2</cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                    </row>
+                    <row class="odd">
+                        <cell halign="center">Q3</cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                    </row>
+                    <row class="even">
+                        <cell halign="center">Q4</cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                    </row>
+                </tabular>
+                <answer>
+                    <m>
+                        \begin{align} 
+                        F &amp;= 500 \left( 1 + \dfrac{0.04}{4} \right)^{4}\\
+                        &amp;= \$520.24
+                        \end{align}
+                   </m>
+                </answer>
+            </activity>
+            <activity>
+                
+                
+                    
+            </activity>
+            <exercises xml:id="exercises-questions">
+                <exercise>
+                    <p>
+                        A certificate of deposit starts at <m>$2{,}500</m> and earns <m>3.6\%</m> APR, compounded <em>monthly</em>. wants to track the balance for the first six months.
+                    </p>
+                
+                    <!-- div attr= class="center"-->
+                
+                        
+                    <tabular top="medium" bottom="medium" left="medium" right="medium">
+                        <row header="no">
+                            <cell halign="center">Month</cell>
+                            <cell halign="center">Beginning Balance ($)</cell>
+                            <cell halign="center">Interest Earned ($)</cell>
+                            <cell halign="center">Ending Balance ($)</cell>
+                        </row>
+                        <row class="odd">
+                            <cell halign="center">1</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row class="even">
+                            <cell halign="center">2</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row class="odd">
+                            <cell halign="center">3</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row class="even">
+                            <cell halign="center">4</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row class="odd">
+                            <cell halign="center">5</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row class="even">
+                            <cell halign="center">6</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                        </row>
                     </tabular>
-                </table>
-                <!--</div attr= class="center">-->
-                </li>
+                </exercise>
+            </exercises>
 
-                <li>
-                    <p>
-                        A certificate of deposit (CD) offers <m>4\%</m> interest compounded <em>quarterly</em>. If  places $500 in the CD, complete the ledger for the first year (four quarters).
-                    </p>
-                
-                    <!-- div attr= class="center"-->
-                    <table>
-                        <title></title>
-                        <tabular>
-                            <row header="yes">
-                                <cell halign="center">Quarter</cell>
-                                <cell halign="center">Beginning Balance ($)</cell>
-                                <cell halign="center">Interest Earned ($)</cell>
-                                <cell halign="center">Ending Balance ($)</cell>
-                            </row>
-                            <row class="odd">
-                                <cell halign="center">Q1</cell>
-                                <cell halign="center">500</cell>
-                                <cell halign="center">5</cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="even">
-                                <cell halign="center">Q2</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="odd">
-                                <cell halign="center">Q3</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="even">
-                                <cell halign="center">Q4</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                        </tabular>
-                    </table><!--</div attr= class="center">-->
-                </li>
+            
 
-                <li>
-                    <p>
-                        A certificate of deposit starts at $2,500 and earns <m>3.6\%</m> APR, compounded <em>monthly</em>. wants to track the balance for the first six months.
-                    </p>
-                
-                    <!-- div attr= class="center"-->
-                    <table>
-                        <title></title>
-                        <tabular>
-                            <row header="yes">
-                                <cell halign="center">Month</cell>
-                                <cell halign="center">Beginning Balance ($)</cell>
-                                <cell halign="center">Interest Earned ($)</cell>
-                                <cell halign="center">Ending Balance ($)</cell>
-                            </row>
-                            <row class="odd">
-                                <cell halign="center">1</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="even">
-                                <cell halign="center">2</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="odd">
-                                <cell halign="center">3</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="even">
-                                <cell halign="center">4</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="odd">
-                                <cell halign="center">5</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                            <row class="even">
-                                <cell halign="center">6</cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                                <cell halign="center"></cell>
-                            </row>
-                        </tabular>
-                    </table>
-                    <!--</div attr= class="center">-->
-                </li>
-            </ol>
-        </p>
+           
 					
 	</subsubsection>
+
+    <subsubsection xml:id="subsubsec-Using-the-Compound-Interest-Formula">
+        <title>Using the Compound Interest Formula</title>
+        
+        <p>
+            <m>\textbf{Compound interest Formula:}</m>
+        </p>
+
+        <if-solutions>
+        <m>
+            F = P \left(1 + \dfrac{r}{n} \right)^{nt}
+        </m>
+        <p>
+            If desired, let <m>i = \dfrac{r}{n}</m>, <m>m = nt</m>, then
+            <m>F = P (1 + i)^{m}</m>.
+        </p>
+        </if-solutions>
+
+        <index>interest!compound</index>
+
+        <item>
+        Notes on <defn>nominal interest rate</defn> and <defn>interest per period</defn>:
+        <fillin lines="1"/>
+        </item>
+        <index>interest!nominal</index>
+        <index>interest!per period</index>
+
+        <activity>
+            <p>
+                Suppose <m>$1000 </m>is deposited into an account that yields <m>9%</m> annually. 
+                Find the amount in the 
+                account at the end of the fifth year if the compounding is done
+            </p>
+            <p>
+                <ol marker="(a)">
+                <li>
+                    <p>
+                        annually
+                    </p>
+                    <answer>
+                        <p>
+                            <m>\$ 1538.62</m>
+                        </p>
+                    </answer>
+                </li>
+
+                <li>
+                    <p>
+                        semiannually
+                    </p>
+                    <answer>
+                        <p>
+                            <m>\$ 1552.97</m>
+                        </p>
+                    </answer>
+                </li>
+
+                <li>
+                    <p>
+                        quarterly
+                    </p>
+                    <answer>
+                        <p>
+                            <m>\$ 1560.51</m>
+                        </p>
+                    </answer>
+                </li>
+
+                    <li>
+                        <p>
+                            monthly
+                        </p>
+                        <answer>
+                            <p>
+                                <m>\$ 1565.68</m>
+                            </p>
+                        </answer>
+                    </li>
+
+                    <li>
+                        <p>
+                            weekly
+                        </p>
+                        <answer>
+                            <p>
+                                <m>\$ 1567.70</m>
+                            </p>
+                        </answer>
+                    </li>
+
+                    <li>
+                        <p>
+                            daily
+                        </p>
+                        <answer>
+                            <p>
+                                <m>\$ 1568.23</m>
+                            </p>
+                        </answer>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+        <activity>
+            <p>
+                Luke is going to take out a short-term business loan of <m>$5000 </m>
+                for a period of <m>5</m> months. The interest rate is <m>4%</m>, compounded monthly.
+                How much will  have to repay at the end of the loan?
+            </p>
+            <p>
+                <m>
+                    \begin{align}
+                    F &amp;= \\
+                    P &amp;= \\
+                    r &amp;= \\
+                    s &amp;= \\
+                    n &amp;= \\
+                    t &amp;= 
+                    \end{align}
+                </m>
+            </p>
+            
+            <answer>
+                <p>
+                    <m>\$ 5083.89 </m>
+                </p>
+            </answer>
+        </activity>
+
+
+        
+        
+    </subsubsection>
 					
 								
     
