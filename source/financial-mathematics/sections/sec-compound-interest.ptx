@@ -1,4 +1,212 @@
 <section xml:id="sec-compound-interest" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Compound Interest</title>
     
+    <subsubsection xml:id="subsubsec-How-to-Fill-Out-a-Compound-Interest-Balance-Sheet">
+        <title>How to Fill Out a Compound-Interest Balance Sheet</title>
+        <p>
+            The ledger below grows your money <em>one period at a time</em>. 
+            Each row covers a slice of the year-one year, one quarter, one month,
+            or one day- so the <q>time</q> <m>t</m> in the simple-interest formula
+            <me>I = Prt</me> is written as a <m>\textbf{fraction of a year}</m>. 
+            Follow the four steps every time you move to a new row. Work with a 
+            basic calculator (or by hand) and round 
+            all money amounts to the nearest cent. Do <em>not</em> jump ahead to 
+            the compound-interest shortcut until your instructor says so.
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <m>\textbf{Record the Beginning Balance.}</m> In the first row this is the 
+                        principal you deposited. In every later row copy the <em>Ending Balance</em> from the line just above.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>\textbf{Compute the Interest for this Period.}
+
+                        </m> Use <m>I = Prt</m> <em>exactly as written</em>: <me>\text{Interest} \;=\; (\text{Beginning Balance})\;(\text{Interest Rate})\;
+                        (\text{Time in years}).</me> 
+                        
+                        <me>\begin{aligned}
+                        \\
+                        5\% \text{ interest rate, yearly period}      &amp;\Longrightarrow t = 1
+                        &amp;&amp; I = P(0.05)(1)      \\[2pt]
+                        4.8\% \text{ interest rate, quarterly period} &amp;\Longrightarrow t = \tfrac14
+                        &amp;&amp; I = P(0.048)\!\bigl(\tfrac14\bigr) \\[2pt]
+                        3.6\% \text{ interest rate, monthly period}   &amp;\Longrightarrow t = \tfrac1{12}
+                        &amp;&amp; I = P(0.036)\!\bigl(\tfrac1{12}\bigr)
+                        
+                       \end{aligned}</me> Write the dollar value for <m>I</m> in the <q>Interest</q> column.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>\textbf{Find the Ending Balance.}</m> Add the
+                        interest you just calculated to the beginning balance: <me>\text{Ending Balance}
+                        \;=\;
+                        \text{Beginning Balance} + \text{Interest}.</me> Enter this rounded amount in the right-hand column.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>\textbf{Carry Forward.}</m> The Ending Balance you just found becomes 
+                        next period’s Beginning Balance. Repeat Steps <m>2-4</m> for as many rows as the problem requires.
+                    </p>
+                </li>
+
+            </ol>
+            </p>
+
+            <p>
+                <ol>
+                <li>
+                    <p>
+                        Alison deposits <m>\$1{,}000</m> in a savings account that pays <m>5\%</m> interest,
+                        compounded <em>once per year</em>. Fill in the balance sheet for three years.
+                    </p>
+                
+                <!-- div attr= class="center"-->
+                <table>
+                    <title></title>
+                    <tabular>
+                    <row header="yes">
+                        <cell halign="center">Year</cell>
+                        <cell halign="center">Beginning Balance ($)</cell>
+                        <cell halign="center">Interest Earned ($)</cell>
+                        <cell halign="center">Ending Balance ($)</cell>
+                    </row>
+                    <row class="odd">
+                        <cell halign="center">1</cell>
+                        <cell halign="center">1000</cell>
+                        <cell halign="center">50</cell>
+                        <cell halign="center">1050</cell>
+                    </row>
+                    <row class="even">
+                    <cell halign="center">2</cell>
+                    <cell halign="center">1050</cell>
+                    <cell halign="center"></cell>
+                    <cell halign="center"></cell>
+                </row>
+                    <row class="odd">
+                        <cell halign="center">3</cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                        <cell halign="center"></cell>
+                    </row>
+                    </tabular>
+                </table>
+                <!--</div attr= class="center">-->
+                </li>
+
+                <li>
+                    <p>
+                        A certificate of deposit (CD) offers <m>4\%</m> interest compounded <em>quarterly</em>. If  places $500 in the CD, complete the ledger for the first year (four quarters).
+                    </p>
+                
+                    <!-- div attr= class="center"-->
+                    <table>
+                        <title></title>
+                        <tabular>
+                            <row header="yes">
+                                <cell halign="center">Quarter</cell>
+                                <cell halign="center">Beginning Balance ($)</cell>
+                                <cell halign="center">Interest Earned ($)</cell>
+                                <cell halign="center">Ending Balance ($)</cell>
+                            </row>
+                            <row class="odd">
+                                <cell halign="center">Q1</cell>
+                                <cell halign="center">500</cell>
+                                <cell halign="center">5</cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="even">
+                                <cell halign="center">Q2</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="odd">
+                                <cell halign="center">Q3</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="even">
+                                <cell halign="center">Q4</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                        </tabular>
+                    </table><!--</div attr= class="center">-->
+                </li>
+
+                <li>
+                    <p>
+                        A certificate of deposit starts at $2,500 and earns <m>3.6\%</m> APR, compounded <em>monthly</em>. wants to track the balance for the first six months.
+                    </p>
+                
+                    <!-- div attr= class="center"-->
+                    <table>
+                        <title></title>
+                        <tabular>
+                            <row header="yes">
+                                <cell halign="center">Month</cell>
+                                <cell halign="center">Beginning Balance ($)</cell>
+                                <cell halign="center">Interest Earned ($)</cell>
+                                <cell halign="center">Ending Balance ($)</cell>
+                            </row>
+                            <row class="odd">
+                                <cell halign="center">1</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="even">
+                                <cell halign="center">2</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="odd">
+                                <cell halign="center">3</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="even">
+                                <cell halign="center">4</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="odd">
+                                <cell halign="center">5</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row class="even">
+                                <cell halign="center">6</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                    <!--</div attr= class="center">-->
+                </li>
+            </ol>
+        </p>
+					
+	</subsubsection>
+					
+								
+    
+
 </section>
