@@ -421,19 +421,21 @@
                     At the end of the four years,  pays back <m>$11{,}273.30</m> to the bank. 
                     
                 </p>
-                <ol marker="(a)">
-                    <li>
-                        <p>
-                            If the interest was compounded monthly, what was the interest rate?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            If the loan that  took out was only compounded yearly, 
-                            what was the interest rate?
-                        </p>
-                    </li>
-                </ol>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                If the interest was compounded monthly, what was the interest rate?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If the loan that  took out was only compounded yearly, 
+                                what was the interest rate?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
             </statement>
             <answer>
                 <p>
