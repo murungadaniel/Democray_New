@@ -1,4 +1,104 @@
 <section xml:id="sec-study-guide-4" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Study Guide</title>
-    
+    <introduction>
+         <p>
+        To prepare for the exam over this chapter, you should review the in-class worksheets and homework.
+         Be ready to do the kind of problems you faced on the homework.
+        </p>
+        <p>
+            As a general guide, I recommend reviewing the following topics.
+        </p>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        Know what it means for a division of assets to be fair.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the fair division by method of
+                    </p>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    Divider-Chooser
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Lone-Divider
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Sealed Bids
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Know what to do when two players want one and only one piece of the division.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Apportionment
+                    </p>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    Know how to find the Standard Divisor and the Standard Quota.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Understand the quota rule.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Be able to understand when a modification of the apportionment problem violates the Population Paradox.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Be able to understand when a modification of the apportionment problem violates the New States Paradox.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Be able to understand when a modification of the apportionment problem violates the Alabama Paradox.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Given an apportionment problem, be able to find the apportionment using Hamilton's Method.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Given an apportionment problem, be able to find the apportionment using Jefferson's Method.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Given an apportionment problem, be able to find the apportionment using Adam's Method.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Given an apportionment problem, be able to find the apportionment using Webster's Method.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </introduction>
 </section>
