@@ -1,5 +1,0 @@
-/home/innodems-dan/Documents/cbc-textbooks/Demo_New/Democray_New/source/main.ptx:40:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
-/home/innodems-dan/Documents/cbc-textbooks/Demo_New/Democray_New/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
-/home/innodems-dan/Documents/cbc-textbooks/Demo_New/Democray_New/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
-/home/innodems-dan/Documents/cbc-textbooks/Demo_New/Democray_New/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
-/home/innodems-dan/Documents/cbc-textbooks/Demo_New/Democray_New/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there
