@@ -1,4 +1,498 @@
 <section xml:id="sec-weighted-voting-systems" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Weighted Voting Systems</title>
-    
+	<activity>
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				Notes on weighted voting systems:
+			</p>
+			<p>
+				<ul>
+					<li>
+						<p>
+							<m>P_i</m>
+						</p>
+					</li>
+
+					<li>
+						<p>
+							<m>w_i</m>
+						</p>
+					</li>
+
+					<li>
+						<p>
+							<m>q</m>
+						</p>
+					</li>
+
+					<li>
+						<p>
+							<m>[q|w_1,w_2,\dots,w_n]</m>
+						</p>
+					</li>
+				</ul>
+			</p>
+		</statement>
+		<solution>
+			<p>
+				Weighted voting systems are when there are <m>n</m> voters labeled <m>P_1\dots P_n</m>, and each voter casts a vote with a certain weight, <m>w_i</m>. Think of this as having each voter being able to cast <m>w_i</m> votes all for the same decision. In order for a motion to pass, the sum of all the votes needs to be at least <m>q</m>, the quota. We need the quota to be more than 50% of the sum of all the votes and no more than the sum of all the votes, but it can be anything in between. We give a weighted voting system as <m>[q|w_1,w_2,\dots,w_n]</m>.
+			</p>
+		</solution>
+	</activity>
+
+	<activity>
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				In a weighted voting system with weights <m>[30, 29, 16, 8, 3, 1]</m>, if a two-thirds majority of votes is needed to pass a motion, what is the quota?
+			</p>
+		</statement>
+		<solution>
+			<p>
+				<m>58</m>
+			</p>
+		</solution>
+	</activity>
+
+	<activity>
+		<statement>
+			<p>
+				Consider the weighted voting system <m>[14, 9, 8 ,5]</m>.
+			</p>
+			<p>
+				<ol marker="a)">
+					<li>
+						<p>
+							What is the largest reasonable quota for this system? 
+						</p>
+					</li>
+
+					<li>
+						<p>
+							What is the smallest reasonable quota for this system?
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+		<solution>
+			<p>
+				<ol marker="a)">
+					<li>
+						<p>
+							<m>36</m>
+						</p>
+					</li>
+					<li>
+						<p>
+							<m>19</m>
+						</p>
+					</li>
+				</ol>
+			</p>
+		</solution>
+	</activity>
+
+	<activity>
+		<introduction>
+			<p>
+				
+			</p>
+			<p>
+				Consider the weighted voting system <m>[20|7,5,4,4,2,2,2,1,1]</m>.
+			</p>
+		</introduction>
+
+		<task>
+			<statement>
+				<p>
+					How many voters are there?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					<m>9</m>
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					What is the quota?
+				</p>
+			</statement>
+			
+			<solution>
+				<p>
+					<m>20</m>
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					What is the weight for voter <m>P_2</m>?
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					<m>5</m>
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					If the first <m>4</m> voters vote for a motion and the rest vote against, does the motion pass?
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					<m>	Yes</m>
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					If <m>P_1</m> and <m>P_2</m> vote against a motion, will the motion pass?
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					<m>No</m>
+				</p>
+			</solution>
+		</task>
+	</activity>
+
+	<activity>
+		<introduction>
+			<p>
+				
+			</p>
+			<p>
+				What is peculiar about each of the following weighted voting systems?
+			</p>
+		</introduction>
+
+		<task>
+			<statement>
+				<p>
+					<m>[20|10, 10, 9]</m>
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					Cannot win without <m>P_1</m> and <m>P_2</m>
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					<m>[7|4, 2, 1]</m>
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					Everyone must vote for the motion to pass
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					<m>[51|50, 49, 1]</m>
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					First voter must vote for the motion for the motion to pass.
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					<m>[6|6, 2, 1, 1]</m>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					First voter is the only one who makes a difference.
+				</p>
+			</solution>
+		</task>
+	</activity>
+
+	<definition xml:id="def-dummy">
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				A dummy  is
+			</p>
+		</statement>
+		<answer>
+			<p>
+				A voter whose vote does not make any difference on whether a motion passes or not
+			</p>
+		</answer>
+	</definition>
+
+	<definition xml:id="def-dictator">
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				A  dictator is
+			</p>
+		</statement>
+		<answer>
+			<p>
+				A voter where their vote is the only reason a motion passes.
+			</p>
+		</answer>
+	</definition>
+
+	<definition xml:id="def-veto-power">
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				A voter has veto power if
+			</p>
+		</statement>
+		<answer>
+			<p>
+				A voter whose must vote for a motion in order for it to pass.
+			</p>
+		</answer>
+	</definition>
+
+	<activity>
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				In the weighted voting system <m>[12|9,5,4,2]</m>, are there any dummies or dictators?
+			</p>
+		</statement>
+
+		<answer>
+			<p>
+				<m>2</m> is a dummy.
+			</p>
+		</answer>
+	</activity>
+
+	<activity>
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				In designing a weighted voting system <m>[q|6,5,4,3,2,1]</m>, what is the largest quota <m>q</m> you could pick without giving veto power to anyone?
+			</p>
+		</statement>
+		<answer>
+			<p>
+				<m>15</m>. You need the rest of the voters to be able to pass a motion.
+			</p>
+		</answer>
+	</activity>
+
+	<activity>
+		<statement>
+			<p>
+				
+			</p>
+			<p>
+				In the weighted voting system <m>[q|8,5,4,1]</m>, if every voter has veto power, what is the quota <m>q</m>?
+			</p>
+		</statement>
+		<answer>
+			<p>
+				<m>18</m>. The last voter needs to have veto power, so the only way a motion passes is if the vote is unanimous.
+			</p>
+		</answer>
+	</activity>
+
+	<activity>
+		<introduction>
+			<p>
+				
+			</p>
+			<p>
+				A committee has four members (<m>P_1, P_2, P_3,</m> and <m>P_4</m>). In this committee, <m>P_1</m> has twice as many votes as <m>P_2</m>; <m>P_2</m> has twice as many votes as <m>P_3</m>: <m>P_3</m> has twice as many votes as <m>P_4</m>. Describe the committee as a weighted voting system when the requirements to pass a motion are
+			</p>
+		</introduction>
+
+		<task>
+			<statement>
+				<p>
+					at least two-thirds of the votes
+				</p>
+			</statement>
+
+			<answer>
+				<p>
+					
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					more than two-thirds of the votes
+				</p>
+			</statement>
+
+			<answer>
+				<p>
+					
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					at least <m>80%</m> of the votes
+				</p>
+			</statement>
+
+			<answer>
+				<p>
+					
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					more than <m>80%</m> of the votes
+				</p>
+			</statement>
+
+			<answer>
+				<p>
+					
+				</p>
+			</answer>
+		</task>
+	</activity>
+
+	<exercises xml:id="exercises-weighted-voting-systems">
+		<exercise>
+			<statement>
+				<p>
+					Alice, Bob, Charles, and Danielle are the stockholders in Alphabet Industries, Inc. Alice owns <m>252</m> shares, Bob owns <m>741</m> shares, Charles inherited <m>637</m> shares, and <m>412</m> shares are in Danielle's hands. As usual, each share corresponds to a vote in the stockholder's meeting.
+				</p>
+
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								If a certain type of motion requires a majority vote, what is the smallest number of votes needed to pass the motion?
+							</p>
+						</li>
+
+						<li>
+							<p>
+								A different type of motion requires a <m>2/3</m> vote to pass. What is the smallest number of votes needed to pass this motion?
+							</p>
+						</li>
+
+						<li>
+							<p>
+								Using the quota you found in part (b), express the weighted voting system in the correct notation (with brackets and quota).
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+					Which voters have veto power in the system <m>[51 | 29, 21, 8, 3, 1]</m>?
+				</p>
+			</statement>
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+					Find all dictators, dummies, and voters with veto power in the following weighted voting systems:
+				</p>
+
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								<m>[51 | 20, 20, 20]</m>
+							</p>
+						</li>
+
+						<li>
+							<p>
+								<m>[51 | 36, 34, 23, 6]</m>
+							</p>
+						</li>
+
+						<li>
+							<p>
+								<m>[25 | 27, 11, 7, 2]</m>
+							</p>
+						</li>
+
+						<li>
+							<p>
+								<m>[31 | 15, 13, 6, 4, 2]</m>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+					In <m>1958</m>, the Treaty of Rome established the European Economic Community (EEC) and instituted a weighted voting system for the EEC's governance. The members at that time were France, Germany, Italy, Belgium, the Netherlands, and Luxembourg. The three largest countries (France, Germany and Italy) were each given a vote with weight 4, Belgium and the Netherlands had votes of weight 2 and Luxembourg's vote had weight 1. The quota was <m>12</m>.
+				</p>
+
+				<p>
+					What is unusual or interesting about this weighted voting system?
+				</p>
+			</statement>
+		</exercise>
+	</exercises>
 </section>

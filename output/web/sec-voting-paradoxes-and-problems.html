@@ -103,14 +103,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.1';
+eBookConfig.runestone_version = '7.9.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.787a04695534ef1e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.cc203fa52565b593.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -152,8 +152,14 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-voting-theory.html" class="internal"><span class="codenumber">1</span> <span class="title">Voting Theory</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-voting-systems.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Voting Systems</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-voting-paradoxes-and-problems.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Voting Paradoxes and Problems</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-weighted-voting-systems.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Weighted Voting Systems</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-voting-paradoxes-and-problems.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Voting Paradoxes and Problems</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-voting-paradoxes-and-problems.html#exercises-voting-paradoxes-and-problems" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-weighted-voting-systems.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Weighted Voting Systems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-weighted-voting-systems.html#exercises-weighted-voting-systems" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-banzhaf-power-index.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Banzhaf Power Index</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-shapley-shubik-power-index.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Shapley-Shubik Power Index</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-study-guide-1.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Study Guide</span></a></div></li>
@@ -232,7 +238,682 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-voting-paradoxes-and-problems"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Voting Paradoxes and Problems</span>
 </h2>
-<div class="autopermalink" data-description="Section 1.2: Voting Paradoxes and Problems"><a href="#sec-voting-paradoxes-and-problems" title="Copy permalink for Section 1.2: Voting Paradoxes and Problems">🔗</a></div></section></div>
+<article class="activity project-like" id="sec-voting-paradoxes-and-problems-2"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec-voting-paradoxes-and-problems-2-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-2-1-1" title="Copy permalink for Paragraph">🔗</a></div></div> <div class="para" id="sec-voting-paradoxes-and-problems-2-1-2">Of the four voting systems we’ve studied, which is best? Why?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-2-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="sec-voting-paradoxes-and-problems-2-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-2-2-1" title="Copy permalink for Paragraph">🔗</a></div></div>
+<div class="autopermalink" data-description="Answer 1.2.1.1"><a href="#sec-voting-paradoxes-and-problems-2-2" title="Copy permalink for Answer 1.2.1.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Activity 1.2.1"><a href="#sec-voting-paradoxes-and-problems-2" title="Copy permalink for Activity 1.2.1">🔗</a></div></article><article class="activity project-like" id="sec-voting-paradoxes-and-problems-3"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="sec-voting-paradoxes-and-problems-3-1">
+<div class="para" id="sec-voting-paradoxes-and-problems-3-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-1-1" title="Copy permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-voting-paradoxes-and-problems-3-1-2">The Des Moines Running Club is electing a new team captain. There are three candidates: Irving, Joseph, and Karl. The preference table is the following.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="sec-voting-paradoxes-and-problems-3-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.1<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.1: "><a href="#sec-voting-paradoxes-and-problems-3-1-3" title="Copy permalink for Table 1.2.1: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="3"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">4</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">3</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">2</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">J</td>
+<td class="c m b2 r2 l0 t0 lines">I</td>
+<td class="c m b2 r2 l0 t0 lines">K</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">I</td>
+<td class="c m b2 r2 l0 t0 lines">J</td>
+<td class="c m b2 r2 l0 t0 lines">I</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">K</td>
+<td class="c m b2 r2 l0 t0 lines">K</td>
+<td class="c m b2 r2 l0 t0 lines">J</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="sec-voting-paradoxes-and-problems-3-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-3-2-1-1">If the club uses the plurality method, who will win the election?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.a"><a href="#sec-voting-paradoxes-and-problems-3-2" title="Copy permalink for Task 1.2.2.a">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-3-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-3-3-1-1">If it were a head-to-head race between Irving and Joseph, who would win?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.b"><a href="#sec-voting-paradoxes-and-problems-3-3" title="Copy permalink for Task 1.2.2.b">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-3-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-3-4-1-1">If it were a head-to-head race between Irving and Karl, who would win?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.c"><a href="#sec-voting-paradoxes-and-problems-3-4" title="Copy permalink for Task 1.2.2.c">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-3-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-3-5-1-1">If it were a head-to-head race between Joseph and Karl, who would win?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.d"><a href="#sec-voting-paradoxes-and-problems-3-5" title="Copy permalink for Task 1.2.2.d">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-3-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-3-6-1-1">Why does the plurality method’s result seem unfair in this election? .<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-3-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.e"><a href="#sec-voting-paradoxes-and-problems-3-6" title="Copy permalink for Task 1.2.2.e">🔗</a></div></article><div class="autopermalink" data-description="Activity 1.2.2"><a href="#sec-voting-paradoxes-and-problems-3" title="Copy permalink for Activity 1.2.2">🔗</a></div></article><article class="definition definition-like" id="def-head-to-head"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-head-to-head-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#def-head-to-head-1-1" title="Copy permalink for Paragraph">🔗</a></div></div> <div class="para" id="def-head-to-head-1-2">Head-to-Head Criterion:<div class="autopermalink" data-description="Paragraph"><a href="#def-head-to-head-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.2"><a href="#def-head-to-head" title="Copy permalink for Definition 1.2.2">🔗</a></div></article><article class="activity project-like" id="sec-voting-paradoxes-and-problems-5"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="sec-voting-paradoxes-and-problems-5-1">
+<div class="para" id="sec-voting-paradoxes-and-problems-5-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-5-1-1" title="Copy permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-voting-paradoxes-and-problems-5-1-2">The school board is voting whether to award the contract for building a new elementary school to Aardvark Architects, to Bob’s Builders, to the Confident Construction Company, or to Davenfield Developers.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-5-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="sec-voting-paradoxes-and-problems-5-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.3: "><a href="#sec-voting-paradoxes-and-problems-5-1-3" title="Copy permalink for Table 1.2.3: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="4"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">5</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">3</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">3</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4th choice</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="sec-voting-paradoxes-and-problems-5-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-5-2-1-1">The school board votes using a Borda count.Which company will get the contract?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-5-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-5-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec-voting-paradoxes-and-problems-5-2-2-1">
+<span class="process-math">\(\begin{array}{clcr}
+A &amp; 5*1+3*2+3*3+1*4 &amp;=&amp; 24 \\
+B &amp; 5*4+3*4+3*1+1*1 &amp;=&amp; 36 \\
+C &amp; 5*3+3*3+3*4+1*2 &amp;=&amp; 38 \\
+D &amp; 5*2+3*1+3*2+1*3 &amp;=&amp; 22 \\
+\end{array}\)</span> so C wins<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-5-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.3.a.1"><a href="#sec-voting-paradoxes-and-problems-5-2-2" title="Copy permalink for Solution 1.2.3.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 1.2.3.a"><a href="#sec-voting-paradoxes-and-problems-5-2" title="Copy permalink for Task 1.2.3.a">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-5-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-5-3-1-1">Does this seem fair? Why or why not?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-5-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-5-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="sec-voting-paradoxes-and-problems-5-3-2-1">No; two-thirds of the voters picked B as their first choice<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-5-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.2.3.b.1"><a href="#sec-voting-paradoxes-and-problems-5-3-2" title="Copy permalink for Answer 1.2.3.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 1.2.3.b"><a href="#sec-voting-paradoxes-and-problems-5-3" title="Copy permalink for Task 1.2.3.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 1.2.3"><a href="#sec-voting-paradoxes-and-problems-5" title="Copy permalink for Activity 1.2.3">🔗</a></div></article><article class="definition definition-like" id="def-majority"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-majority-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#def-majority-1-1" title="Copy permalink for Paragraph">🔗</a></div></div> <div class="para" id="def-majority-1-2">Majority Criterion:<div class="autopermalink" data-description="Paragraph"><a href="#def-majority-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.4"><a href="#def-majority" title="Copy permalink for Definition 1.2.4">🔗</a></div></article><article class="activity project-like" id="sec-voting-paradoxes-and-problems-7"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="sec-voting-paradoxes-and-problems-7-1">
+<div class="para" id="sec-voting-paradoxes-and-problems-7-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-1-1" title="Copy permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-voting-paradoxes-and-problems-7-1-2">The board of regents of Western Iowa State at Sema will be voting tomorrow for the University’s new president from four candidates: Zehnpfennig, Gersbach, Haider, and Rentmeester. As of this moment, the voters’ preferences are as follows:<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="sec-voting-paradoxes-and-problems-7-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.5<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.5: "><a href="#sec-voting-paradoxes-and-problems-7-1-3" title="Copy permalink for Table 1.2.5: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="4"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">7</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">5</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">4</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4th choice</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+</tr>
+</table></div></figure><div class="para" id="sec-voting-paradoxes-and-problems-7-1-4">The WIS regents use the plurality with elimination method.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="sec-voting-paradoxes-and-problems-7-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-7-2-1-1">If the vote were held today, who would be chosen as university president?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-7-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-voting-paradoxes-and-problems-7-2-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{cc}Z&amp; 7 \\ R&amp;1 \\ G&amp;4 \\ H&amp;5\end{array}
+\leadsto
+\begin{array}{cc}Z&amp;7 \\ G&amp;5 \\ H&amp;5 \end{array}
+\leadsto Z
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.4.a.1"><a href="#sec-voting-paradoxes-and-problems-7-2-2" title="Copy permalink for Solution 1.2.4.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 1.2.4.a"><a href="#sec-voting-paradoxes-and-problems-7-2" title="Copy permalink for Task 1.2.4.a">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-7-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-7-3-1-1">After thinking it over in bed tonight, the single voter in the last column decides that Zehnpfennig really is the best candidate after all, and so his preferences change to <span class="process-math">\(Z,R,G,H\text{.}\)</span> Thus when the election is held tomorrow, the preference table is<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="sec-voting-paradoxes-and-problems-7-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.6<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.6: "><a href="#sec-voting-paradoxes-and-problems-7-3-1-2" title="Copy permalink for Table 1.2.6: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="4"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">7</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">5</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">4</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+<td class="c m b2 r2 l0 t0 lines">R Z</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">G R</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+<td class="c m b2 r2 l0 t0 lines">G</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">Z G</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4th choice</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">Z</td>
+<td class="c m b2 r2 l0 t0 lines">H H</td>
+</tr>
+</table></div></figure> <div class="para" id="sec-voting-paradoxes-and-problems-7-3-1-3">Who will be elected president?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-3-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-7-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-voting-paradoxes-and-problems-7-3-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{cc}Z&amp; 8 \\ R&amp;0 \\ G&amp;4 \\ H&amp;5\end{array}
+\leadsto
+\begin{array}{cc}Z&amp; 8 \\ G&amp;4 \\ H&amp;5\end{array}
+\leadsto
+\begin{array}{cc}Z&amp;8 \\ H&amp;9 \end{array}
+\leadsto H
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.4.b.1"><a href="#sec-voting-paradoxes-and-problems-7-3-2" title="Copy permalink for Solution 1.2.4.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 1.2.4.b"><a href="#sec-voting-paradoxes-and-problems-7-3" title="Copy permalink for Task 1.2.4.b">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-7-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-7-4-1-1">What is odd about your answers to (a) and (b)?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-7-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.4.c"><a href="#sec-voting-paradoxes-and-problems-7-4" title="Copy permalink for Task 1.2.4.c">🔗</a></div></article><div class="autopermalink" data-description="Activity 1.2.4"><a href="#sec-voting-paradoxes-and-problems-7" title="Copy permalink for Activity 1.2.4">🔗</a></div></article><article class="definition definition-like" id="def-monotonicity"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-monotonicity-1-1">Monotonicity Criterion:<div class="autopermalink" data-description="Paragraph"><a href="#def-monotonicity-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.7"><a href="#def-monotonicity" title="Copy permalink for Definition 1.2.7">🔗</a></div></article><article class="activity project-like" id="sec-voting-paradoxes-and-problems-9"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="sec-voting-paradoxes-and-problems-9-1">
+<div class="para" id="sec-voting-paradoxes-and-problems-9-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-1-1" title="Copy permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-1-2">Voters are trying to decide what to do with a <span class="process-math">\($50\)</span> million surplus in the state budget. Their options are:<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-1-3">(T)	Give the money back to taxpayers as property tax relief.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-1-4">(R) Spend it on road construction and other infrastructure.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-1-5">(H) Build a new state historical building.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-1-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-1-6">Here is the preference table:<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-1-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="sec-voting-paradoxes-and-problems-9-1-7"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.8<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.8: "><a href="#sec-voting-paradoxes-and-problems-9-1-7" title="Copy permalink for Table 1.2.8: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="3"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">70,000</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">50,000</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">40,000</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">T</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">T</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">H</td>
+<td class="c m b2 r2 l0 t0 lines">T</td>
+<td class="c m b2 r2 l0 t0 lines">R</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="sec-voting-paradoxes-and-problems-9-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-2-1-1">The election is run by pairwise comparison. What is the result?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-9-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="sec-voting-paradoxes-and-problems-9-2-2-1">
+<span class="process-math">\(R&gt;H&gt;T&gt;R\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.2.5.a.1"><a href="#sec-voting-paradoxes-and-problems-9-2-2" title="Copy permalink for Answer 1.2.5.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 1.2.5.a"><a href="#sec-voting-paradoxes-and-problems-9-2" title="Copy permalink for Task 1.2.5.a">🔗</a></div></article><article class="task exercise-like" id="sec-voting-paradoxes-and-problems-9-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-voting-paradoxes-and-problems-9-3-1-1">What is odd about your results from part (a)?<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-voting-paradoxes-and-problems-9-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="sec-voting-paradoxes-and-problems-9-3-2-1">Try having candidate <span class="process-math">\(R\)</span> drop out of the race.<div class="autopermalink" data-description="Paragraph"><a href="#sec-voting-paradoxes-and-problems-9-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.2.5.b.1"><a href="#sec-voting-paradoxes-and-problems-9-3-2" title="Copy permalink for Answer 1.2.5.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 1.2.5.b"><a href="#sec-voting-paradoxes-and-problems-9-3" title="Copy permalink for Task 1.2.5.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 1.2.5"><a href="#sec-voting-paradoxes-and-problems-9" title="Copy permalink for Activity 1.2.5">🔗</a></div></article><article class="definition definition-like" id="def-irrelevant-alternatives"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-irrelevant-alternatives-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#def-irrelevant-alternatives-1-1" title="Copy permalink for Paragraph">🔗</a></div></div> <div class="para" id="def-irrelevant-alternatives-1-2">Irrelevant Alternatives Criterion:<div class="autopermalink" data-description="Paragraph"><a href="#def-irrelevant-alternatives-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.9"><a href="#def-irrelevant-alternatives" title="Copy permalink for Definition 1.2.9">🔗</a></div></article><article class="definition definition-like" id="def-approval-voting"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-approval-voting-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#def-approval-voting-1-1" title="Copy permalink for Paragraph">🔗</a></div></div> <div class="para" id="def-approval-voting-1-2">Approval Voting:<div class="autopermalink" data-description="Paragraph"><a href="#def-approval-voting-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<details id="def-approval-voting-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="def-approval-voting-2-1">Vote for all candidates you approve of. For more in-depth explanation of how this works, see <code class="code-inline tex2jax_ignore">https://electionscience.org/library/approval-voting/</code><div class="autopermalink" data-description="Paragraph"><a href="#def-approval-voting-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.2.10.1"><a href="#def-approval-voting-2" title="Copy permalink for Answer 1.2.10.1">🔗</a></div>
+</div></details><div class="autopermalink" data-description="Definition 1.2.10"><a href="#def-approval-voting" title="Copy permalink for Definition 1.2.10">🔗</a></div></article><article class="definition definition-like" id="def-arrow-theorem"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-arrow-theorem-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#def-arrow-theorem-1-1" title="Copy permalink for Paragraph">🔗</a></div></div> <div class="para" id="def-arrow-theorem-1-2">Arrow’s Impossibility Theorem:<div class="autopermalink" data-description="Paragraph"><a href="#def-arrow-theorem-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.11"><a href="#def-arrow-theorem" title="Copy permalink for Definition 1.2.11">🔗</a></div></article><section class="exercises" id="exercises-voting-paradoxes-and-problems"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="exercises-voting-paradoxes-and-problems-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="exercises-voting-paradoxes-and-problems-1-1-1">Consider the following preference table:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="exercises-voting-paradoxes-and-problems-1-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.12<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.12: "><a href="#exercises-voting-paradoxes-and-problems-1-1-2" title="Copy permalink for Table 1.2.12: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="5"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">4</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">10</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">2</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">3</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">5</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4th choice</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+</tr>
+</table></div></figure> <div class="para logical" id="exercises-voting-paradoxes-and-problems-1-1-3">
+<ol class="lower-alpha ol-marker-1" id="exercises-voting-paradoxes-and-problems-1-1-3-1">
+<li id="exercises-voting-paradoxes-and-problems-1-1-3-1-1">
+<div class="para" id="exercises-voting-paradoxes-and-problems-1-1-3-1-1-1">How many votes would be required to win a <em class="emphasis">majority</em> in this election?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-1-1-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.1.a"><a href="#exercises-voting-paradoxes-and-problems-1-1-3-1-1" title="Copy permalink for Item 1.2.1.a">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-1-1-3-1-2">
+<div class="para" id="exercises-voting-paradoxes-and-problems-1-1-3-1-2-1">Does the Borda Count violate the Majority Criterion for this particular preference table?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-1-1-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.1.b"><a href="#exercises-voting-paradoxes-and-problems-1-1-3-1-2" title="Copy permalink for Item 1.2.1.b">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-1-1-3-1-3">
+<div class="para" id="exercises-voting-paradoxes-and-problems-1-1-3-1-3-1">Does the Borda Count violate the Head-to-Head Criterion for this particular preference table?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-1-1-3-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.1.c"><a href="#exercises-voting-paradoxes-and-problems-1-1-3-1-3" title="Copy permalink for Item 1.2.1.c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-1-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 1.2.1"><a href="#exercises-voting-paradoxes-and-problems-1" title="Copy permalink for Exercise 1.2.1">🔗</a></div></article><article class="exercise exercise-like" id="exercises-voting-paradoxes-and-problems-2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="exercises-voting-paradoxes-and-problems-2-1-1">Consider the following preference table:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="exercises-voting-paradoxes-and-problems-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.13<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.13: "><a href="#exercises-voting-paradoxes-and-problems-2-1-2" title="Copy permalink for Table 1.2.13: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="6"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">11</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">2</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">5</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">8</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">4</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4th choice</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+</tr>
+</table></div></figure> <div class="para logical" id="exercises-voting-paradoxes-and-problems-2-1-3">
+<ol class="lower-alpha ol-marker-1" id="exercises-voting-paradoxes-and-problems-2-1-3-1">
+<li id="exercises-voting-paradoxes-and-problems-2-1-3-1-1">
+<div class="para" id="exercises-voting-paradoxes-and-problems-2-1-3-1-1-1">Does the Borda Count violate the Majority Criterion for this particular preference table?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-2-1-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.2.a"><a href="#exercises-voting-paradoxes-and-problems-2-1-3-1-1" title="Copy permalink for Item 1.2.2.a">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-2-1-3-1-2">
+<div class="para" id="exercises-voting-paradoxes-and-problems-2-1-3-1-2-1">Does the Borda Count violate the Head-to-Head Criterion for this particular preference table<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-2-1-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.2.b"><a href="#exercises-voting-paradoxes-and-problems-2-1-3-1-2" title="Copy permalink for Item 1.2.2.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-2-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="exercises-voting-paradoxes-and-problems-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="exercises-voting-paradoxes-and-problems-2-2-1">
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-voting-paradoxes-and-problems-2-2-1-1">
+<li id="exercises-voting-paradoxes-and-problems-2-2-1-1-1">
+<div class="para" id="p-derived-exercises-voting-paradoxes-and-problems-2-2-1-1-1"></div>
+<div class="autopermalink" data-description="Item 1.2.2.a"><a href="#exercises-voting-paradoxes-and-problems-2-2-1-1-1" title="Copy permalink for Item 1.2.2.a">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-2-2-1-1-2">
+<div class="para" id="exercises-voting-paradoxes-and-problems-2-2-1-1-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-2-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div></div>
+<div class="autopermalink" data-description="Item 1.2.2.b"><a href="#exercises-voting-paradoxes-and-problems-2-2-1-1-2" title="Copy permalink for Item 1.2.2.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.2.1"><a href="#exercises-voting-paradoxes-and-problems-2-2" title="Copy permalink for Solution 1.2.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Exercise 1.2.2"><a href="#exercises-voting-paradoxes-and-problems-2" title="Copy permalink for Exercise 1.2.2">🔗</a></div></article><article class="exercise exercise-like" id="exercises-voting-paradoxes-and-problems-3"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="exercises-voting-paradoxes-and-problems-3-1-1">Consider the following preference table:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="exercises-voting-paradoxes-and-problems-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.14<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.14: "><a href="#exercises-voting-paradoxes-and-problems-3-1-2" title="Copy permalink for Table 1.2.14: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b0 r2 l0 t2 lines" colspan="4"># of Ballots</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Ranking</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">9</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">6</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">8</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">5</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">1 st choice</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">2nd choice</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">D</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+<td class="c m b2 r2 l0 t0 lines">B</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3rd choice</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4th choice</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">C</td>
+<td class="c m b2 r2 l0 t0 lines">A</td>
+</tr>
+</table></div></figure> <div class="para logical" id="exercises-voting-paradoxes-and-problems-3-1-3">
+<ol class="lower-alpha ol-marker-1" id="exercises-voting-paradoxes-and-problems-3-1-3-1">
+<li id="exercises-voting-paradoxes-and-problems-3-1-3-1-1">
+<div class="para" id="exercises-voting-paradoxes-and-problems-3-1-3-1-1-1">How many points will each candidate receive in a Borda count? Who will win?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-3-1-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.3.a"><a href="#exercises-voting-paradoxes-and-problems-3-1-3-1-1" title="Copy permalink for Item 1.2.3.a">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-3-1-3-1-2">
+<div class="para" id="exercises-voting-paradoxes-and-problems-3-1-3-1-2-1">The five voters in the last column really do think <span class="process-math">\(D\)</span> is the best candidate and <span class="process-math">\(B\)</span> is the second-best. However, they decide to be sneaky and lie on their Borda count ballots, claiming they think <span class="process-math">\(B\)</span> is the worst candidate; in other words, they say they prefer <span class="process-math">\(D\text{,}\)</span> <span class="process-math">\(C\text{,}\)</span> <span class="process-math">\(A\text{,}\)</span> and <span class="process-math">\(B\)</span> in that order. Now how many points will each candidate receive in a Borda count? Who will win?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-3-1-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.3.b"><a href="#exercises-voting-paradoxes-and-problems-3-1-3-1-2" title="Copy permalink for Item 1.2.3.b">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-3-1-3-1-3">
+<div class="para" id="exercises-voting-paradoxes-and-problems-3-1-3-1-3-1">Explain in a few complete sentences how these voters manipulated the Borda count and why it is unfair.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-3-1-3-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.3.c"><a href="#exercises-voting-paradoxes-and-problems-3-1-3-1-3" title="Copy permalink for Item 1.2.3.c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-3-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="exercises-voting-paradoxes-and-problems-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="exercises-voting-paradoxes-and-problems-3-2-1">
+<ol class="lower-alpha ol-marker-1" id="exercises-voting-paradoxes-and-problems-3-2-1-1">
+<li id="exercises-voting-paradoxes-and-problems-3-2-1-1-1">
+<div class="para" id="p-derived-exercises-voting-paradoxes-and-problems-3-2-1-1-1"></div>
+<div class="autopermalink" data-description="Item 1.2.3.a"><a href="#exercises-voting-paradoxes-and-problems-3-2-1-1-1" title="Copy permalink for Item 1.2.3.a">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-3-2-1-1-2">
+<div class="para" id="p-derived-exercises-voting-paradoxes-and-problems-3-2-1-1-2"></div>
+<div class="autopermalink" data-description="Item 1.2.3.b"><a href="#exercises-voting-paradoxes-and-problems-3-2-1-1-2" title="Copy permalink for Item 1.2.3.b">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-3-2-1-1-3">
+<div class="para" id="p-derived-exercises-voting-paradoxes-and-problems-3-2-1-1-3"></div>
+<div class="autopermalink" data-description="Item 1.2.3.c"><a href="#exercises-voting-paradoxes-and-problems-3-2-1-1-3" title="Copy permalink for Item 1.2.3.c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.3.1"><a href="#exercises-voting-paradoxes-and-problems-3-2" title="Copy permalink for Solution 1.2.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Exercise 1.2.3"><a href="#exercises-voting-paradoxes-and-problems-3" title="Copy permalink for Exercise 1.2.3">🔗</a></div></article><article class="exercise exercise-like" id="exercises-voting-paradoxes-and-problems-4"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-1">Voters go to the polls to vote on three propositions simultaneously:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-voting-paradoxes-and-problems-4-1-2">
+<span class="process-math">\(\textbf{Proposition 1}\text{:}\)</span> Spend <span class="process-math">\($200,000\)</span> to plant new flowers and trees at the zoo.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-voting-paradoxes-and-problems-4-1-3">
+<span class="process-math">\(\textbf{Proposition 2}\text{:}\)</span> Spend <span class="process-math">\($400,000\)</span> to build a children’s playground at the zoo.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-voting-paradoxes-and-problems-4-1-4">
+<span class="process-math">\(\textbf{Proposition 3}\text{:}\)</span> Spend <span class="process-math">\($500,000\)</span> to add a panda exhibit to the zoo.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-voting-paradoxes-and-problems-4-1-5">All the voters love the zoo, plants, children, and pandas. They’re all fiscally responsible, and only differ in how much money they want to spend.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-voting-paradoxes-and-problems-4-1-6">
+<ol class="lower-alpha ol-marker-1" id="exercises-voting-paradoxes-and-problems-4-1-6-1">
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-1">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-1-1">Alice is one of a thousand voters who want to improve the zoo, but don’t want to spend more than $1,000,000 total. She wants to spend as close that limit as possible, without going over. Which propositions will Alice and her bloc vote for?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.4.a"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-1" title="Copy permalink for Item 1.2.4.a">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-2">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-2-1">Zeke is one of a thousand voters who want to improve the zoo, but don’t want to spend more than $800,000 total. He wants to spend as close that limit as possible, without going over. Which propositions will Zeke and his bloc vote for?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.4.b"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-2" title="Copy permalink for Item 1.2.4.b">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-3">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-3-1">Shadrach is one of a thousand voters who want to improve the zoo, but don’t want to spend more than $600,000 total. He wants to spend as close that limit as possible, without going over. Which propositions will Shadrach and his bloc vote for?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.4.c"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-3" title="Copy permalink for Item 1.2.4.c">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-4">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-4-1">Fill out the following preference table with the votes—either “Yes” or “No.”<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="exercises-voting-paradoxes-and-problems-4-1-6-1-4-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.15<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 1.2.15: "><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-4-2" title="Copy permalink for Table 1.2.15: ">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b0 r2 l2 t2 lines">Voters</th>
+<th scope="col" class="c m b0 r2 l0 t2 lines">Alice et al</th>
+<th scope="col" class="c m b0 r2 l0 t2 lines">Zeke et al</th>
+<th scope="col" class="c m b0 r2 l0 t2 lines">Shadrach et al</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t0 lines">Number of Votes</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1000</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1000</th>
+<th scope="col" class="c m b2 r2 l0 t0 lines">1000</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Proposition 1</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Proposition 2</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Proposition 3</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Item 1.2.4.d"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-4" title="Copy permalink for Item 1.2.4.d">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-5">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-5-1">Which of the three propositions will pass? (Only a majority vote is needed for each proposition.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.4.e"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-5" title="Copy permalink for Item 1.2.4.e">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-6">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-6-1">How many of the <span class="process-math">\(3,000\)</span> voters are happy with the result?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.4.f"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-6" title="Copy permalink for Item 1.2.4.f">🔗</a></div>
+</li>
+<li id="exercises-voting-paradoxes-and-problems-4-1-6-1-7">
+<div class="para" id="exercises-voting-paradoxes-and-problems-4-1-6-1-7-1">Explain in a few complete sentences what is odd or paradoxical about this situation.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.2.4.g"><a href="#exercises-voting-paradoxes-and-problems-4-1-6-1-7" title="Copy permalink for Item 1.2.4.g">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-voting-paradoxes-and-problems-4-1-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 1.2.4"><a href="#exercises-voting-paradoxes-and-problems-4" title="Copy permalink for Exercise 1.2.4">🔗</a></div></article><div class="autopermalink" data-description="Exercises 1.2"><a href="#exercises-voting-paradoxes-and-problems" title="Copy permalink for Exercises 1.2">🔗</a></div></section><div class="autopermalink" data-description="Section 1.2: Voting Paradoxes and Problems"><a href="#sec-voting-paradoxes-and-problems" title="Copy permalink for Section 1.2: Voting Paradoxes and Problems">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-voting-systems.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-weighted-voting-systems.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
