@@ -1,4 +1,543 @@
 <section xml:id="sec-simple-interest" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Simple Interest</title>
+    <p>
+        In this chapter, we retain the following conventions:
+    </p>
+    <tabular halign="left">
+        <row>
+            <cell>1 year</cell>
+            <cell>12 months</cell>
+        </row>
+        <row>
+            <cell>1 year</cell>
+            <cell>52 weeks</cell>
+        </row>
+        <row>
+            <cell>1 year</cell>
+            <cell>365 days</cell>
+        </row>
+        <row>
+            <cell>1 week</cell>
+            <cell>7 days</cell>
+        </row>
+        <row>
+            <cell>1 day</cell>
+            <cell>24 hours</cell>
+		</row>
+	</tabular>
+    <p>
+        All interest rates will be annual unless specified otherwise.
+    </p>
+    <activity>
+        <task>
+            <statement>
+               <p>
+                    Sara rents a post-hole digger from RentAll to build a fence. The cost is <m>$12.95</m> per day, 
+                    and she keeps it for three days. How much will Sara pay?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>$38.85</m>
+                </p>
+            </answer>
+        </task>
+        
+        <task>
+            <statement>
+                <p>
+                    Hailey is visiting Kentucky for work and will need to rent a furnished apartment. The 
+                    rate is <m>$100</m> per week. They stay for <m>18</m> days. How much will Hailey pay?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>$257.14</m>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Sara needs to lease a car for <m>$2500</m> per year. How much will Sara pay if she keeps the car for
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                2 years?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                5 months?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                18 days?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                6 weeks?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                <m>$5,000.00</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>$1,041.67</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>$123.29</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>$288.46</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Guido <q>the Organist</q> Landini is a small-time loan shark in downtown Metropolis. 
+                    He charges clients <m>43\%</m> simple interest per year. What percentage interest does he charge on a loan of
+
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                3 years?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                1 month?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                1 week?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                3 weeks?
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                4 days?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                <m>129\%</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>3.58\%</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>0.827\%</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>2.48\%</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>0.471\%</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The interest charged is. . .
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Loans: 
+                </p>
+            </statement>
+           <answer>
+            <p>
+                
+            </p>
+           </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Calculations:  
+                </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>\textbf{Simple Interest Formula:}</m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Your friend, Aleah borrows <m>$1800</m> from you for <m>3</m> years, at an annual simple interest 
+                    rate of <m>7.0\%.</m> How much will she repay you?
+                </p>
+                <p>
+                     <m>
+                        \begin{align}
+                        F &amp;= \\
+                        P &amp;= \\
+                        r &amp;= \\
+                        t &amp;= \\
+                        \end{align}
+                    </m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>
+                        \begin{align}
+                        F &amp;= $2178\\
+                        P &amp;= $1800\\
+                        r &amp;= 0.07\\
+                        t &amp;= 3\\
+                        \end{align}
+                    </m>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p> 
+                    Suppose you borrow <m>$1000</m> for <m>4</m> months at an annual simple interest rate of <m>8.0\%</m>. 
+                    Find the total amount that you will have to repay.
+                </p>
+                <p>
+                    <m>
+                        \begin{align}
+                        F &amp;= \\
+                        P &amp;= \\
+                        r &amp;= \\
+                        t &amp;= \\
+                        \end{align}
+                    </m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>$1026.66</m>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Logan took out a loan for <m>6</m> months at an annual simple interest rate of <m>4.0%</m>.
+                     The total amount  paid for the loan was <m>$1890.46.</m> How much did he borrow?
+                </p>
+                <p>
+                    <m>
+                        \begin{align}
+                        F &amp;= \\
+                        P &amp;= \\
+                        r &amp;= \\
+                        t &amp;= \\
+                        \end{align}
+                    </m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>$1853.39</m>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Suppose <m>$2000</m> is borrowed for <m>7</m> months, at the end of which <m>$2100</m> is repaid. 
+                    Find the annual simple interest rate <m>r</m>. 
+                </p>
+                <p>
+                    <m>
+                        \begin{align}
+                        F &amp;= \\
+                        P &amp;= \\
+                        r &amp;= \\
+                        t &amp;= \\
+                        \end{align}
+                    </m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>8.57\%</m>
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    R’moni got a loan from the city to help repair the sidewalk in front of her home. 
+                    She borrowed <m>$1800</m> at an annual simple interest rate of <m>5\%</m>. The amount  repaid was <m>$2025.</m>
+                     How long was her loan?
+                </p>
+                <p>
+                   <m>
+                        \begin{align}
+                        F &amp;= \\
+                        P &amp;= \\
+                        r &amp;= \\
+                        t &amp;= \\
+                        \end{align}
+                    </m> 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>2.5 \text{ years }, \text{ or } 30 \text{ months }</m>
+                </p>
+            </answer>
+        </task>
+    </activity>
+    <exercises xml:id="exercises-simple-interest">
+        <exercise>
+            <statement>
+                <p>
+                    Given the principal <m>P</m>, the annual interest rate <m>r</m>, and the time <m>t</m>, 
+                    find the amount <m>F</m> that must be repaid.
+                    <ol marker="(a)">
+                        <li>
+							<p>
+								<m>P={}</m>$15,000, <m>r=6\%</m>, <m>t={}</m>5 years
+							</p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>P={}</m>$5,300, <m>r=2\%</m>, <m>t={}</m>3 months
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>P={}</m>$9,000, <m>r=4.5\%</m>, <m>t={}</m>50 days
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                   <ol marker="(a)">
+                    <li>
+                        <p>
+                            <m>$19,500.00</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>$5,326.50</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>$9,055.48</m>
+                        </p>
+                    </li>
+                   </ol> 
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Of the four values <m>F</m>, <m>P</m>, <m>r</m>, and <m>t</m> in the Simple Interest Formula,
+                     three are given to you. Use the Simple Interest Formula to find the fourth one.
+                     <ol marker="(a)">
+                        <li>
+                            <p>
+                                <m>F={}</m>$12,000, <m>r=3\%</m>, <m>t={}</m>3 years
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>F={}</m>$8,500, <m>t={}</m>6 months, <m>P={}</m>$8,200
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>F={}</m>$4,250, <m>r=7\%</m>, <m>P={}</m>$3,500
+                            </p>
+                        </li>
+
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ol marker="(a)">
+                    <li>
+                        <p>
+                            <m>$11,009.17</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>7.317\%</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>3.06 \text{ years }</m>
+                        </p>
+                    </li>
+                   </ol> 
+                </p>
+            </answer>
+            
+        </exercise>
+
+
+        <exercise>
+            <statement>
+                <p>
+                    You borrow <m>$2,000</m> from the city to pay for sidewalk repairs. You promise to repay the loan in 
+                    three years at <m>5\%</m> simple interest. How much will you pay the city then?
+                </p>
+                <p>
+                    <m>
+                        \begin{align}
+                        F &amp;= \\
+                        P &amp;= \\
+                        r &amp;= \\
+                        t &amp;= \\
+                        \end{align}
+                    </m> 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>$2,300</m>
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Sara Nelson knows she will inherit <m>$10,000 </m>from her dying uncle within five months.
+                     The bank will lend money at <m>4\%</m> simple interest. What is the largest amount of money
+                    she could borrow now, if she plans to use her inheritance to repay it in five months?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>$9,836.07</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Sara’s friend Aleah wants to borrow <m>$220</m> from her for three months. If Sara wants to 
+                    earn <m>$20</m> in interest on the loan, what percent simple interest should she charge?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>36.36\%</m>
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Alisyn has borrowed <m>$800</m> from her friend Jackson, who is charging <m>2%</m> simple interest. 
+                    Eventually Alisyn repaid the loan, but it cost <m>$200</m> to do so. For how long did Alisyn borrow Jackson’s money?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>12.5 \text{ years }</m>
+                </p>
+            </answer>
+
+        </exercise>
+        
+    </exercises>
+
     
 </section>

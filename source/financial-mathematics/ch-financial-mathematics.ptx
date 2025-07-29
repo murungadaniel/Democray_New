@@ -1,6 +1,35 @@
 <chapter xml:id="ch-financial-mathematics" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Financial Mathematics</title>
-    
+    <introduction>
+        <p>
+            In this chapter, we retain the following conventions:
+        </p>
+        <tabular>
+            <row>
+            <cell>1 year</cell>
+            <cell>12 months</cell>
+            </row>
+            <row>
+            <cell>1 year</cell>
+            <cell>52 weeks</cell>
+            </row>
+            <row>
+            <cell>1 year</cell>
+            <cell>365 days</cell>
+            </row>
+            <row>
+            <cell>1 week</cell>
+            <cell>7 days</cell>
+            </row>
+            <row>
+            <cell>1 day</cell>
+            <cell>24 hours</cell>
+            </row>
+        </tabular>
+        <p>
+            All interest rates will be annual unless specified otherwise.
+        </p>
+    </introduction>
      <xi:include href="sections/sec-simple-interest.ptx"/>
      <xi:include href="sections/sec-compound-interest.ptx"/>
      <xi:include href="sections/sec-savings.ptx"/>

@@ -1,4 +1,976 @@
 <section xml:id="sec-voting-paradoxes-and-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Voting Paradoxes and Problems</title>
-    
+    <activity>
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Of the four voting systems we've studied, which is best? Why?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                
+            </p>
+            <p>
+                The Des Moines Running Club is electing a new team captain. There are three candidates: Irving, Joseph, and Karl. The preference table is the following.
+            </p>
+            <table>
+                <title></title>
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="3"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">4</cell>
+                                <cell halign="center">3</cell>
+                                <cell halign="center">2</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">J</cell>
+                                <cell halign="center">I</cell>
+                                <cell halign="center">K</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                <cell halign="center">I</cell>
+                                <cell halign="center">J</cell>
+                                <cell halign="center">I</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">K</cell>
+                                <cell halign="center">K</cell>
+                                <cell halign="center">J</cell>
+                            </row>
+                        </tabular>            
+                    </table>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    If the club uses the plurality method, who will win the election? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If it were a head-to-head race between Irving and Joseph, who would win? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If it were a head-to-head race between Irving and Karl, who would win? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If it were a head-to-head race between Joseph and Karl, who would win? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Why does the plurality method's result seem unfair in this election? .
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <definition xml:id="def-head-to-head">
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Head-to-Head Criterion:
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <introduction>
+            <p>
+                
+            </p>
+            <p>
+                The school board is voting whether to award the contract for building a new elementary school to Aardvark Architects, to Bob’s Builders, to the Confident Construction Company, or to Davenfield Developers.
+            </p>
+            <table>
+                <title></title>
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="4"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">5</cell>
+                                <cell halign="center">3</cell>
+                                <cell halign="center">3</cell>
+                                <cell halign="center">1</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">A</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">D</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">C</cell>
+                            </row>
+                                                        <row bottom="medium">
+                                <cell halign="center">4th choice</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">B</cell>
+                            </row>
+                        </tabular>
+            </table>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    The school board votes using a Borda count.<!-- linebreak -->Which company will get the contract?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>\begin{array}{clcr}
+                            A &amp; 5*1+3*2+3*3+1*4 &amp;=&amp; 24 \\
+                            B &amp; 5*4+3*4+3*1+1*1 &amp;=&amp; 36 \\
+                            C &amp; 5*3+3*3+3*4+1*2 &amp;=&amp; 38 \\
+                            D &amp; 5*2+3*1+3*2+1*3 &amp;=&amp; 22 \\
+                        \end{array}</m> so C wins
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Does this seem fair? Why or why not? 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    No; two-thirds of the voters picked B as their first choice
+                </p>
+            </answer>
+        </task>
+    </activity>
+
+    <definition xml:id="def-majority">
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Majority Criterion:
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <introduction>
+            <p>
+                
+            </p>
+            <p>
+                The board of regents of Western Iowa State at Sema will be voting tomorrow for the University’s new president from four candidates: Zehnpfennig, Gersbach, Haider, and Rentmeester. As of this moment, the voters’ preferences are as follows:
+            </p>
+            <table>
+                <title></title>
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="4"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">7</cell>
+                                <cell halign="center">5</cell>
+                                <cell halign="center">4</cell>
+                                <cell halign="center">1</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">Z</cell>
+                                <cell halign="center">H</cell>
+                                <cell halign="center">G</cell>
+                                <cell halign="center">R</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                <cell halign="center">R</cell>
+                                <cell halign="center">Z</cell>
+                                <cell halign="center">H</cell>
+                                <cell halign="center">G</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">G</cell>
+                                <cell halign="center">G</cell>
+                                <cell halign="center">R</cell>
+                                <cell halign="center">Z</cell>
+                            </row>
+                                                        <row bottom="medium">
+                                <cell halign="center">4th choice</cell>
+                                <cell halign="center">H</cell>
+                                <cell halign="center">R</cell>
+                                <cell halign="center">Z</cell>
+                                <cell halign="center">H</cell>
+                            </row>
+                        </tabular>
+            </table>
+            <p>
+                The WIS regents use the plurality with elimination method.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    If the vote were held today, who would be chosen as university president?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                  <me>\begin{array}{cc}Z&amp; 7 \\ R&amp;1 \\ G&amp;4 \\ H&amp;5\end{array}
+                    \leadsto
+                    \begin{array}{cc}Z&amp;7 \\ G&amp;5 \\ H&amp;5 \end{array}
+                    \leadsto Z</me>
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    After thinking it over in bed tonight, the single voter in the last column decides that Zehnpfennig really is the best candidate after all, and so his preferences change to <m>Z,R,G,H</m>. Thus when the election is held tomorrow, the preference table is
+                </p>
+                <table>
+                    <title></title>
+
+                                    <tabular top="medium" left="medium" right="medium">
+                                            <row left="medium" header="yes">
+                                                <cell></cell>
+                                                <cell colspan="4"> # of Ballots</cell>
+                                            </row>
+                                            <row bottom="medium" header="yes">
+                                                <cell halign="center">Ranking</cell>
+                                                <cell halign="center">7</cell>
+                                                <cell halign="center">5</cell>
+                                                <cell halign="center">4</cell>
+                                                <cell halign="center">1</cell>
+                                            </row>
+                                            <row bottom="medium">
+                                                <cell halign="center">1 st choice</cell>
+                                                <cell halign="center">Z</cell>
+                                                <cell halign="center">H</cell>
+                                                <cell halign="center">G</cell>
+                                                <cell halign="center">R Z</cell>
+                                            </row>
+                                            <row bottom="medium">
+                                                <cell halign="center">2nd choice</cell>
+                                                <cell halign="center">R</cell>
+                                                <cell halign="center">Z</cell>
+                                                <cell halign="center">H</cell>
+                                                <cell halign="center">G R</cell>
+                                            </row>
+                                            <row bottom="medium">
+                                                <cell halign="center">3rd choice</cell>
+                                                <cell halign="center">G</cell>
+                                                <cell halign="center">G</cell>
+                                                <cell halign="center">R</cell>
+                                                <cell halign="center">Z G</cell>
+                                            </row>
+                                                                        <row bottom="medium">
+                                                <cell halign="center">4th choice</cell>
+                                                <cell halign="center">H</cell>
+                                                <cell halign="center">R</cell>
+                                                <cell halign="center">Z</cell>
+                                                <cell halign="center">H H</cell>
+                                            </row>
+                                        </tabular>                
+                                    </table>
+                                    <p>
+                                        Who will be elected president?
+                                    </p>
+            </statement>
+            <solution>
+                <p>
+                    <me>\begin{array}{cc}Z&amp; 8 \\ R&amp;0 \\ G&amp;4 \\ H&amp;5\end{array}
+                        \leadsto
+                        \begin{array}{cc}Z&amp; 8 \\ G&amp;4 \\ H&amp;5\end{array}
+                        \leadsto
+                        \begin{array}{cc}Z&amp;8 \\ H&amp;9 \end{array}
+                        \leadsto H</me>
+                </p>
+            </solution>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What is odd about your answers to (a) and (b)?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <definition xml:id="def-monotonicity">
+        <statement>
+            <p>
+                Monotonicity Criterion:
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <introduction>
+            <p>
+                
+            </p>
+            <p>
+                Voters are trying to decide what to do with a <m>$50</m> million surplus in the state budget. Their options are:
+            </p>
+            <p>
+                (T)	Give the money back to taxpayers as property tax relief.
+            </p>
+            <p>
+                (R) Spend it on road construction and other infrastructure.
+            </p>
+
+            <p>
+                (H) Build a new state historical building.
+            </p>
+            <p>
+                Here is the preference table:
+            </p>
+            <table>
+                <title></title>
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="3"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">70,000</cell>
+                                <cell halign="center">50,000</cell>
+                                <cell halign="center">40,000</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">T</cell>
+                                <cell halign="center">R</cell>
+                                <cell halign="center">H</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                <cell halign="center">R</cell>
+                                <cell halign="center">H</cell>
+                                <cell halign="center">T</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">H</cell>
+                                <cell halign="center">T</cell>
+                                <cell halign="center">R</cell>
+                            </row>
+                        </tabular>
+            </table>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    The election is run by pairwise comparison. What is the result?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>R&gt;H&gt;T&gt;R</m>.
+                </p>
+            </answer>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What is odd about your results from part (a)?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                     Try having candidate <m>R</m> drop out of the race.
+                </p>
+            </answer>
+        </task>
+    </activity>
+
+    <definition xml:id="def-irrelevant-alternatives">
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Irrelevant Alternatives Criterion:
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-approval-voting">
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Approval Voting:
+            </p>
+        </statement>
+
+        <answer>
+            <p>
+                Vote for all candidates you approve of. For more in-depth explanation of how this works, see <c>https://electionscience.org/library/approval-voting/</c>
+            </p>
+        </answer>
+    </definition>
+
+    <definition xml:id="def-arrow-theorem">
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Arrow’s Impossibility Theorem:
+            </p>
+        </statement>
+    </definition>
+
+    <exercises xml:id="exercises-voting-paradoxes-and-problems">
+        <exercise>
+            <statement>
+                <p>
+                    Consider the following preference table:
+                </p>
+                <table>
+                    <title></title>
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="5"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">4</cell>
+                                <cell halign="center">10</cell>
+                                <cell halign="center">2</cell>
+                                <cell halign="center">3</cell>
+                                <cell halign="center">5</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">A</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">B</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">D</cell>
+                            </row>
+                                                        <row bottom="medium">
+                                <cell halign="center">4th choice</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">C</cell>
+                            </row>
+                        </tabular>
+                </table>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                How many votes would be required to win a <em>majority</em> in this election?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Does the Borda Count violate the Majority Criterion for this particular preference table?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Does the Borda Count violate the Head-to-Head Criterion for this particular preference table?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Consider the following preference table:
+                </p>
+                <table>
+                    <title></title>
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="6"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">11</cell>
+                                <cell halign="center">2</cell>
+                                <cell halign="center">5</cell>      
+                                <cell halign="center">1</cell>
+                                <cell halign="center">8</cell>
+                                <cell halign="center">4</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">C</cell>          
+                                <cell halign="center">D</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">B</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">A</cell>        
+                                <cell halign="center">A</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">A</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">B</cell>         
+                                <cell halign="center">B</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">C</cell>
+                            </row>
+                                 <row bottom="medium">
+                                <cell halign="center">4th choice</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">D</cell>         
+                                <cell halign="center">C</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">D</cell>
+                            </row>
+                        </tabular>                
+                    </table>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    Does the Borda Count violate the Majority Criterion for this particular preference table?
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                     Does the Borda Count violate the Head-to-Head Criterion for this particular preference table
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol>
+                        <li>	
+                            				<!-- <p>
+						The Borda count tally is
+					</p>
+			
+					<table>
+						<title></title>
+						<tabular>
+						<row >
+							<cell halign="left">A</cell>
+							<cell halign="left">101</cell>
+						</row>
+						<row >
+							<cell halign="left">B</cell>
+							<cell halign="left">49</cell>
+						</row>
+						<row >
+							<cell halign="left">C</cell>
+							<cell halign="left">93</cell>
+						</row>
+						<row >
+							<cell halign="left">D</cell>
+							<cell halign="left">67</cell>
+						</row>
+						</tabular>
+					</table>
+			
+					<p>
+						linebreakwhile a plurality vote yields
+					</p>
+			
+					<table>
+						<title></title>
+						<tabular>
+						<row >
+							<cell halign="left">A</cell>
+							<cell halign="left">8</cell>
+						</row>
+						<row >
+							<cell halign="left">B</cell>
+							<cell halign="left">4</cell>
+						</row>
+						<row >
+							<cell halign="left">C</cell>
+							<cell halign="left">16</cell>
+						</row>
+						<row >
+							<cell halign="left">D</cell>
+							<cell halign="left">3</cell>
+						</row>
+						<row>
+							<cell halign="left">total</cell>
+							<cell halign="left">31</cell>
+						</row>
+						</tabular>
+					</table>
+			
+					<p>
+						Thus the majority criterion is violated, since candidate C has a majority of the 31 votes, but the Borda Count elects A.
+					</p> -->
+                        </li>
+
+                        <li>
+                            <p>
+                                <!-- since C beats A, B, and D in head-to-head contests but the Borda Count elects A. -->
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Consider the following preference table:
+                </p>
+                <table>
+                    <title></title>
+
+                        <tabular top="medium" left="medium" right="medium">
+                            <row left="medium" header="yes">
+                                <cell></cell>
+                                <cell colspan="4"> # of Ballots</cell>
+                            </row>
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Ranking</cell>
+                                <cell halign="center">9</cell>
+                                <cell halign="center">6</cell>
+                                <cell halign="center">8</cell>
+                                <cell halign="center">5</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">1 st choice</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">D</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">2nd choice</cell>
+                                
+                                <cell halign="center">D</cell>
+                                <cell halign="center">D</cell>
+                                <cell halign="center">B</cell>
+                                <cell halign="center">B</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">3rd choice</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">C</cell>
+                            </row>
+                                <row bottom="medium">
+                                <cell halign="center">4th choice</cell>
+                                <cell halign="center">A</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">C</cell>
+                                <cell halign="center">A</cell>
+                            </row>
+                        </tabular>
+                </table>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                How many points will each candidate receive in a Borda count? Who will win?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                The five voters in the last column really do think <m>D</m> is the best candidate and <m>B</m> is the second-best. However, they decide to be sneaky and lie on their Borda count ballots, claiming they think <m>B</m> is the worst candidate; in other words, they say they prefer <m>D</m>, <m>C</m>, <m>A</m>, and <m>B</m> in that order. Now how many points will each candidate receive in a Borda count? Who will win?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Explain in a few complete sentences how these voters manipulated the Borda count and why it is unfair.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="(a)">
+                        <li>					
+                            <!-- <p>
+						The point tallies are
+					</p>
+			
+					<table>
+						<title></title>
+						<tabular>
+						<row >
+							<cell halign="left">A</cell>
+							<cell halign="left">42</cell>
+						</row>
+						<row >
+							<cell halign="left">B</cell>
+							<cell halign="left">99</cell>
+						</row>
+						<row >
+							<cell halign="left">C</cell>
+							<cell halign="left">42</cell>
+						</row>
+						<row >
+							<cell halign="left">D</cell>
+							<cell halign="left">97</cell>
+						</row>
+						</tabular>
+					</table>
+			
+					<p>
+						so
+					</p> -->
+                        </li>
+
+                        <li>					
+                            <!-- <p>
+						Now the point tallies become
+					</p>
+			
+					<table>
+						<title></title>
+						<tabular>
+						<row>
+							<cell halign="left">A</cell>
+							<cell halign="left">47</cell>
+						</row>
+						<row >
+							<cell halign="left">B</cell>
+							<cell halign="left">89</cell>
+						</row>
+						<row >
+							<cell halign="left">C</cell>
+							<cell halign="left">47</cell>
+						</row>
+						<row >
+							<cell halign="left">D</cell>
+							<cell halign="left">97</cell>
+						</row>
+						</tabular>
+					</table>
+			
+					<p>
+						so
+					</p> -->
+                        </li>
+
+                        <li>					
+                            <!-- <p>
+						These voters filled out their ballots deceptively, downgrading the candidate they opposed in order to make their own candidate do well by comparison. This is unfair because it gives dishonest voters more power than honest ones. (Graders, be generous with students’ explanations!)
+					</p> -->
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Voters go to the polls to vote on three propositions simultaneously:
+                </p>
+
+                <p>
+                    <m>\textbf{Proposition 1}</m>: Spend <m>$200,000</m> to plant new flowers and trees at the zoo.
+                </p>
+
+                <p>
+                     <m>\textbf{Proposition 2}</m>: Spend <m>$400,000</m> to build a children's playground at the zoo.
+                </p>
+
+                <p>
+                     <m>\textbf{Proposition 3}</m>: Spend <m>$500,000</m> to add a panda exhibit to the zoo.
+                </p>
+
+                <p>
+                    All the voters love the zoo, plants, children, and pandas. They're all fiscally responsible, and only differ in how much money they want to spend.
+                </p>
+
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                Alice is one of a thousand voters who want to improve the zoo, but don't want to spend more than $1,000,000 total. She wants to spend as close that limit as possible, without going over. Which propositions will Alice and her bloc vote for?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Zeke is one of a thousand voters who want to improve the zoo, but don't want to spend more than $800,000 total. He wants to spend as close that limit as possible, without going over. Which propositions will Zeke and his bloc vote for?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Shadrach is one of a thousand voters who want to improve the zoo, but don't want to spend more than $600,000 total. He wants to spend as close that limit as possible, without going over. Which propositions will Shadrach and his bloc vote for?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Fill out the following preference table with the votes—either <q>Yes</q> or <q>No.</q>
+                            </p>
+                            <table>
+                                <title></title>
+                        <tabular top="medium" left="medium" right="medium" >
+                            <row header="yes">
+                                <cell halign="center">  Voters </cell>
+                                <cell halign="center">Alice et al</cell>
+                                <cell halign="center">Zeke et al</cell>
+                                <cell halign="center">Shadrach et al</cell>
+                            </row>
+
+                            <row bottom="medium" header="yes">
+                                <cell halign="center">Number of Votes</cell>
+                                <cell halign="center">1000</cell>
+                                <cell halign="center">1000</cell>
+                                <cell halign="center">1000</cell>
+                            </row>
+
+                            <row bottom="medium">
+                                <cell halign="center">Proposition 1</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+
+                            <row bottom="medium">
+                                <cell halign="center">Proposition 2</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="center">Proposition 3</cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                                <cell halign="center"></cell>
+                            </row>
+                        </tabular>
+                            </table>
+                        </li>
+
+                        <li>
+                            <p>
+                                Which of the three propositions will pass? (Only a majority vote is needed for each proposition.)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                How many of the <m>3,000</m> voters are happy with the result?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Explain in a few complete sentences what is odd or paradoxical about this situation.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+
 </section>
