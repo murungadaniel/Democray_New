@@ -1,4 +1,461 @@
 <section xml:id="sec-savings" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Savings</title>
+	
+	<activity>
+		<task>
+			<statement>
+				<p>
+					Deriving a very useful formula:
+				</p>
+			</statement>
+			<solution>
+				<p>
+					The basic idea for a future value annuity is that every month we receive compound interest on our new payment along with all of our previous payments. 
+					Therefore at each time when we are going to compound the interest, each payment has been compounded an additional time.
+				</p>
+				<p>
+					Example: Payment is paid four times a year and the interest is compounded quarterly for an annual interest rate of <m>r</m> for one year:
+				</p>
+				
+				<p>
+					<ul>
+						<li>
+							<p>
+								Start: 0
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								After quarter one: <m>R</m>
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								After quarter two the original <m>R</m> is compounded once now and we pay an additional 
+								<m>R</m> <me>R (1 +\frac r4)+ R</me>
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								After quarter three the original <m>R</m> has been compounded twice, the second <m>R</m> has been compounded once, and we pay an additional <m>R</m> <me>R(1+\frac r4)^2 
+								+ R (1 +\frac r4)
+								+ R</me>
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								After quarter four (one year) the original <m>R</m> has been compounded three times, the second <m>R</m> has been compounded twice, the third <m>R</m> has been compounded once, and we pay an additional <m>R</m> <me>R(1+\frac r4)^3+
+								R(1+\frac r4)^2
+								+ R (1 +\frac r4)
+								+ R</me>
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								Thus you can see the pattern that the original payment will always be compounded one less that compounding period, which in general will be <m>nt</m> for <m>n</m> compounds per year and <m>t</m> total years
+							</p>
+						</li>
+	
+					</ul>
+				</p>
+	
+				<p>
+					The general formula for Future Value <m>F</m> is <me>\begin{aligned}
+					F=&amp;R(1 +\frac rn)^{nt-1}+R(1 +\frac rn)^{nt-2}+\cdots +R(1 +\frac rn)^1+R\\
+						=&amp; R\frac{(1+\frac rn)^{nt}-1}{\frac rn}
+						
+					\end{aligned}</me>
+				</p>
+			</solution>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					An annuity is a series of equal payments made at regular intervals. For an ordinary annuity, 
+					the payments are made at the <em>end</em> of the interval. If the payments are made at the 
+					<em>beginning</em> of the interval, it is called an annuity due. 
+					We will not be working with this type of annuity in this class.
+				</p>
+				<p>
+					A good way to think about these is as a savings account. You are putting some money, <m>R</m>, 
+					into the account every compounding period in order to save up for something in the future.
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<m>\textbf{Future Value of an Annuity:}</m>
+				</p>
+				<p>
+					<m>F=R\left(\frac{(1+\frac rn)^{nt}-1}{\frac rn}\right) \text{ If we let } i=\frac{r}{n} \text{ and } m=nt,</m> 
+					we can shorten the formula to:
+				</p>
+				<p>
+					<m> F=R\left(\frac{(1+i)^{m}-1}{i}\right)</m>
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					<m>\textbf{Example:}</m>	
+				</p>
+				<p>
+					You are going to graduate, get a job, and want to buy a house in two years. How much should you deposit each month into 
+					an account bearing 7% interest, compounded monthly, in order to have $15,000 for a down payment in two years?
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<m>\$584.07</m>
+				</p>
+			</answer>
+		</task>
+		
+		<task>
+			<statement>
+				<p>
+					How much money will you have when you retire if you save $20 each month from graduation (age 22) until retirement (age 63),
+					 if you can average 6.6% annual interest compounded monthly?
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<m>41 \text{ years}, \$50395.28</m>
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					 Sara starts saving for a down payment on a house by depositing $100 each month into an annuity 
+					 that pays 4.8% interest, compounded monthly. How large a down payment can she afford in 3 years?
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<m>\$3863.81</m>
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					Hoopla Publishing Company knows its printing press is nearing the end of its life. 
+					They will need to purchase a new printing press for $65,000 in 10 years. What payment should Hoopla make every
+					year into a sinking fund earning 7% interest, compounded annually, in order to have the $65,000 in ten years?
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<m>\$4,704.54</m>
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					Suppose you wanted to compute how much money would be in an account earning 5% interest compounded monthly if you deposited $100/month for 25 years.
+				</p>
+	
+				<p>
+					<ol marker="(a)">
+					<li>
+						<p>
+							How much would you have if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.004</m>?
+						</p>
+					</li>
+	
+					<li>
+						<p>
+							How much would you have if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.0041</m>?
+						</p>
+					</li>
+	
+					<li>
+						<p>
+							How much would you have if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.00417</m>?
+						</p>
+					</li>
+	
+					<li>
+						<p>
+							How much would you have if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.004167</m>?
+						</p>
+					</li>
+	
+					</ol>
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								<m>\$57,804.48</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>\$59,907.89 </m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>\$59,586.55</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>\$59,554.53</m>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</answer>
+		</task>
+
+		<task>
+			<statement>
+				<p>
+					Suppose you wanted to save up $60,000 over 20 years by depositing an amount of money in the bank account 
+					earning 5% interest compounded monthly.
+				</p>
+	
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								How much would you have to save every month if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.004</m>?
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								How much would you have to save every month if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.0041</m>?
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								How much would you have to save every month if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.00417</m>?
+							</p>
+						</li>
+		
+						<li>
+							<p>
+								How much would you have to save every month if you used <m>\displaystyle \frac{0.05}{12}\simeq 0.004167</m>?
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+			<answer>
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								<m>$149.37</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>$145.30</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>$145.91</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>$145.97</m>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</answer>
+		</task>
+	</activity>
+
+	<exercises xml:id="exercises-savings">
+		<exercise>
+			<statement>
+				<p>
+					Find the future value of each of the following ordinary annuities.
+				</p>
+				<p>
+                        
+                        <ol marker="(a)">
+                            <li>
+								<p>
+									Deposits of $1200 made at the end of each year for 10 years, where 7% annual interest is compounded annually.
+								</p>
+                            </li>
+
+                            <li>
+								<p>
+									Deposits of $300 made at the end of each quarter for 10 years, where 8% annual interest is compounded quarterly.
+								</p>
+                            </li>
+
+                            <li>
+								<p>
+									Deposits of $51 made at the end of each month for 20 years, where 6% annual interest is compounded monthly.
+								</p>
+                            </li>
+
+                            <li>
+								<p>
+									Deposits of $100 made at the end of each week for 2 years, where 8% annual interest is compounded weekly.
+								</p>
+                            </li>
+                        </ol>
+                     </p>
+			</statement>
+			<solution>
+				<p>
+					<ol marker="(a)"> 
+						<li>
+							<p>
+								<m>\$1200\dfrac{(1+\frac{.07}{1})^{10}-1}{\frac{.07}{1}} = \boxed{\$16579.74.}</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>\$300\dfrac{(1+\frac{.08}{4})^{4\cdot 10}-1}{\frac{.08}{4}} = \boxed{\$18{,}120.59.}</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>\$51\dfrac{(1+\frac{.06}{12})^{20\cdot 12}-1}{\frac{.06}{12}} = \boxed{\$23564.09.}</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>$100\dfrac{(1+\frac{.08}{52})^{52\cdot 2}-1}{\frac{.08}{52}} = \boxed{\$11268.83.}</m>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+				
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+					 Leo Dodd deposits $50 each week in a bank CD earning 4% interest compounded weekly.  does this for 14 years.
+				</p>
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								How much is in  bank account at the end of those 14 years?
+							</p>
+						</li>
+
+						<li>
+							<p>
+								How many dollars of interest did  earn, in total, over those 14 years?
+							</p>
+						</li>
+					</ol>
+                </p>
+			</statement>
+			<solution>
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								<m>\$50\dfrac{(1+\frac{0.04}{52})^{52\cdot 14}-1}{\frac{0.04}{52}} = \boxed{\$48{,}769.22}</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								She deposited a total of <me>\$50 \cdot 52\cdot 14 = \$36{,}400,</me> so the interest Leo Dodd earned is
+								<me>$\$48{,}769.22 - \$36{,}400 = \boxed{\$12{,}369.22.}</me>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+					Aliah is graduating from Wartburg College and wants to have $20,000 
+                        ready for a down payment on a house in 5 years. If  investments pay 6% interest,
+                        compounded monthly, how much money should she invest every month in order to achieve her goal?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					We want <me>\$20{,}000 = P \dfrac{(1+\frac{0.06}{12})^{12\cdot 5}-1}{\frac{0.06}{12}}</me>
+                  so 
+				  <me>
+				    P = \$20{,}000 \div \dfrac{(1+\frac{0.06}{12})^{12\cdot 5}-1}{\frac{0.06}{12}} = \boxed{\$286.66.}
+				  </me> 
+				</p>
+			</solution>
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+					<ol marker="(a)">
+						<li>
+							<p>
+								 Sara Nelson  said she would set up an ordinary annuity for her newborn niece Gloria and deposit $100 each month,
+								with the last payment to occur on Gloria’s 18th birthday. The payments would earn 6% annual interest,
+								compounded monthly. How much will Gloria have on her 18th birthday?
+							</p>
+						</li>
+						<li>
+							<p>
+								Sara’s spouse Zane suggested they should just deposit a lump sum of money <em>now</em> into a bank account
+								(earning 6% annual interest, compounded monthly), so that it would grow to the same amount by Gloria’s 18th birthday a
+								s you found in part (a). If they go with Zane’s plan, how much money must the loving relatives deposit in the account now?
+							</p>
+						</li>
+					</ol>
+					
+				</p>
+			</statement>
+			<solution>
+				<p>
+					<ol  marker="(a)">
+						<li>
+							<p>
+								<m>\$100\dfrac{(1+\frac{.06}{12})^{12\cdot 18}-1}{\frac{.06}{12}} = \boxed{\$38735.32.}</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								We want to find <m>P</m> such that <m>\$38735.32=P\left(1+\frac{.06}{12}\right)^{12\cdot 18}</m>; solving,
+								 we find they would need to deposit <m>\$13,189.79</m> today.
+							</p>
+						</li>
+					</ol>	
+				</p>
+			</solution>
+		</exercise>
+
+	</exercises>
+    
+
+			
+		
     
 </section>
