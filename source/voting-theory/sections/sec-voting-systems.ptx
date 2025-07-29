@@ -512,6 +512,7 @@
     </activity>
     <exercises xml:id="exercises-home-work">
         <title>HomeWork 1</title>
+        <!-- Exercise 1 -->
         <exercise>
             <introduction>
                 <p>
@@ -738,6 +739,7 @@
             </task>
 
         </exercise>
+        <!-- Exercise 2 -->
         <exercise>
             <introduction>
                 <p>
@@ -846,6 +848,7 @@
                 </solution>
             </task>
         </exercise>
+        <!-- Exercise 3 -->
         <exercise>
             <introduction>
                 <p>
@@ -953,7 +956,7 @@
                 </solution>
             </task>
         </exercise>
-        
+        <!-- Exercise 4 -->
         <exercise>
             <introduction>
                 <p>
@@ -1061,6 +1064,7 @@
                 </solution>
             </task>
         </exercise>
+        <!-- Exercise 5 -->
         <exercise>
             <introduction>
                 <p>
@@ -1172,6 +1176,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 6 -->
         <exercise>
             <statement>
                 <p>
@@ -1186,6 +1191,7 @@
                 </p>
             </answer>
         </exercise>
+        <!-- Exercise 7 -->
         <exercise>
             <introduction>
                 <p>
@@ -1337,6 +1343,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 8 -->
         <exercise>
             <statement>
                 <p>
@@ -1350,6 +1357,7 @@
                 </p>
             </answer>
         </exercise>
+        <!-- Exercise 9 -->
         <exercise>
             <introduction>
                 <p>
@@ -1558,6 +1566,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 10 -->
         <exercise>
             <statement>
                 <p>
@@ -1571,6 +1580,7 @@
                 </p>
             </answer>
         </exercise>
+        <!-- Exercise 11 -->
         <exercise>
             <statement>
                 <p>
@@ -1584,6 +1594,7 @@
                 </p>
             </answer>
         </exercise>
+        <!-- Exercise 12 -->
         <exercise>
             <statement>
                 <p>
@@ -1786,6 +1797,7 @@
                 for pairwise comparison, show the result of each head-to-head vote.
             </p>
         </introduction>
+        <!-- Exercise 14 -->
         <exercise>
             <introduction>
                 <p>
@@ -1872,6 +1884,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 15 -->
         <exercise>
             <introduction>
                 <p>
@@ -2007,6 +2020,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 16 -->
         <exercise>
             <introduction>
                 <p>
@@ -2092,6 +2106,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 17 -->
         <exercise>
             <introduction>
                 <p>
@@ -2173,6 +2188,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 18 -->
         <exercise>
             <introduction>
                 <p>
@@ -2252,6 +2268,7 @@
                 </answer>
             </task>
         </exercise>
+        <!-- Exercise 19 -->
         <exercise>
             <introduction>
                 <p>
