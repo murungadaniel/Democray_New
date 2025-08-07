@@ -1,4 +1,122 @@
 <subsection xml:id="subsec-arithmetic-measures">
-    <title>Arithmetic Measures</title>
+  <title>Arithmetic measures</title>
+
+    <p>
+      Okay, so maybe just looking geometrically at how the districts are drawn is not
+      a good way of testing how fair a redistricting is. Maybe there is something about
+      the election and where the people who live in the district are placed that would help
+      us measure the fairness of the redistricting plan.
+    </p>
+
+    <p>
+      <term>Efficiency gap:</term> A state has been divided into 5 districts of 100 voters each.
+      Each district votes to elect a representative from one of two parties,
+      <m>A</m> or <m>B</m>. In any election, many voters will end up feeling
+      that voting was a waste of their time. A voter could feel this way for
+      two reasons:
+    </p>
+
+    <p>
+      <ol>
+        <li>Her party lost, so what was the point of showing up to vote?</li>
+        <li>Her party won by a landslide, so what was the point of showing up to vote?</li>
+        <li>All votes for party <m>A</m> are wasted if party <m>A</m> loses.</li>
+        <li>All votes above 50% for party <m>A</m> are wasted if party <m>A</m> wins.</li>
+      </ol>
+    </p>
+
+      <p>
+        Complete the following table. Use <m>W_A</m> for wasted votes by A, and <m>W_B</m> for B.
+      </p>
+
+      
+        <tabular bottom="medium" top="medium" left="medium" right="medium" halign="center">
+          <row header="yes">
+            <cell halign="center">District</cell>
+            <cell halign="center">A votes</cell>
+            <cell halign="center">B votes</cell>
+            <cell halign="center">Winner</cell>
+            <cell halign="center"><m>W_A</m></cell>
+            <cell halign="center"><m>W_B</m></cell>
+            <cell halign="center"><m>W_A + W_B</m></cell>
+            <cell halign="center"><m>W_A - W_B</m></cell>
+          </row>
+
+          <row><cell>1</cell><cell>95</cell><cell>5</cell><cell>A</cell><cell>45</cell><cell>5</cell><cell>50</cell><cell>40</cell></row>
+          <row><cell>2</cell><cell>40</cell><cell>60</cell><cell>B</cell><cell>40</cell><cell>10</cell><cell>50</cell><cell>30</cell></row>
+          <row><cell>3</cell><cell>75</cell><cell>25</cell><cell>A</cell><cell>25</cell><cell>25</cell><cell>50</cell><cell>0</cell></row>
+          <row><cell>4</cell><cell>45</cell><cell>55</cell><cell>B</cell><cell>45</cell><cell>5</cell><cell>50</cell><cell>40</cell></row>
+          <row><cell>5</cell><cell>45</cell><cell>55</cell><cell>B</cell><cell>45</cell><cell>5</cell><cell>50</cell><cell>40</cell></row>
+
+          <row>
+            <cell><em>TOTAL</em></cell>
+            <cell>300</cell><cell>200</cell><cell>A: 2 B: 3</cell>
+            <cell>200</cell><cell>50</cell><cell>250</cell><cell>150</cell>
+          </row>
+        </tabular>
+    <p>
+      The <term>Efficiency Gap</term> is defined to be the fraction of the difference of wasted votes
+     divided by the total number of votes:
+    </p>
+
+    <p>
+      <me>EG = \frac{W_A - W_B}{\text{Total Votes}}</me>
+    </p>
+
+    <p>
+     The <m>V</m> in the denominator normalized  <m>EG</m>, so that its magnitude does not depend on
+     the population of the state. The idea is that when  <m>EG</m> is much larger than <m>0</m>, the
+     districting plan may be unfair to party  <m>A</m>, because  <m>A</m>is wasting more votes. When <m>EG</m>
+     is much smaller than <m>0</m>, then <m>B</m> is wasting more votes, so the plan may be unfair
+     to  <m>B</m>. We do have to be careful because if a candidate is running unopposed, the
+     efficiency gap for that election is meaningless. We can either throw out that district in
+     our calculations or use data from other elections to estimate what the election would
+     look like if the seat were contested.
+    </p>
+
+    <p>12. Consider the following election:</p>
+
+      <tabular bottom="medium" top="medium" left="medium" right="medium" halign="center">
+        <row header="yes">
+          <cell halign="center">District</cell>
+          <cell halign="center">A votes</cell>
+          <cell halign="center">B votes</cell>
+          <cell halign="center">Winner</cell>
+          <cell halign="center"><m>W_A</m></cell>
+          <cell halign="center"><m>W_B</m></cell>
+          <cell halign="center"><m>W_A + W_B</m></cell>
+          <cell halign="center"><m>W_A - W_B</m></cell>
+        </row>
+
+        <row><cell>1</cell><cell>81</cell><cell>19</cell><cell>A</cell><cell>31</cell><cell>19</cell><cell>50</cell><cell>12</cell></row>
+        <row><cell>2</cell><cell>45</cell><cell>55</cell><cell>B</cell><cell>45</cell><cell>5</cell><cell>50</cell><cell>40</cell></row>
+        <row><cell>3</cell><cell>80</cell><cell>20</cell><cell>A</cell><cell>30</cell><cell>20</cell><cell>50</cell><cell>10</cell></row>
+        <row><cell>4</cell><cell>49</cell><cell>51</cell><cell>B</cell><cell>49</cell><cell>1</cell><cell>50</cell><cell>48</cell></row>
+        <row><cell>5</cell><cell>45</cell><cell>55</cell><cell>B</cell><cell>45</cell><cell>5</cell><cell>50</cell><cell>40</cell></row>
+
+        <row>
+          <cell><em>TOTAL</em></cell>
+          <cell>300</cell><cell>200</cell><cell>A: 2 B: 3</cell>
+          <cell>200</cell><cell>50</cell><cell>250</cell><cell>150</cell>
+        </row>
+      </tabular>
+
+    <p>
+     Fill out the table. Which districts show signs of <term>packing</term>, that is putting all the
+     voters of one party together so that, although they win the district, they have a lot of wasted votes.
+       
+    </p>
+    <p>
+     Which districts show signs of <term>cracking</term>, that is putting just enough voters of the
+     opposing party in the district so that they are confident of winning the election and
+     therefore the first party has a lot of wasted votes?
+    </p>
     
+        <p>
+         <term>R9</term>. Go back to the 5 districts you drew on the map (or draw new ones) so that teal
+         receives the most seats. Assuming that each square represents 100 voters, what
+         is the efficiency gap for your plan 3 ?
+        </p>
+        <image source="Redistricting\squares.png" width="50%">
+        </image>
 </subsection>
