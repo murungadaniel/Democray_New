@@ -1,4 +1,103 @@
 <subsection xml:id="subsec-geomtric-measures">
-    <title>Geomtric Measures</title>
-    
+    <title>Geometric Measures</title>
+        <p>
+             Although most states have a requirement that their districts
+             be compact, there is no good definition for how compact a set of districts
+             would be. We will look at two different ways of measuring compactness. 
+             To make measurement easier, we will be using our example districts from before
+        </p>
+        <p>
+            <term>Area vs. Perimeter</term>
+             One way of measuring how compact a district is comes from dividing 
+             the area of the district by its perimeter squared and then 
+             multiplying by <m>16</m>
+        </p>
+		<image source="path ">
+			<shortdescription></shortdescription>
+		</image>
+		 <p>
+             You multiply by <fn> 16 because the Isoperimetric measure
+             for a square is <m>\frac{1}{16}</m> and we would like our ratio
+             to be about 1 </fn>.  In general, this type of calculation is 
+             known as an Isoperimetric measure.
+         </p> 
+         <p> 
+          	<ol>
+				<li>
+					<p>
+						Example:
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate the Isoperimetric measure for a square.
+					</p>
+				</li>
+				<li>
+				<p>
+					<term>Notes.</term>
+				</p>
+				</li>
+				<li>
+					<p>
+					Calculate the area and perimeter of each district for each plan. 
+					Fill in the table below.
+					</p>
+				</li> 
+			</ol>
+         </p>
+		 <tabular top="minor" bottom="minor" left="minor" right="minor">
+			<row header="yes">
+				<cell>District</cell> <cell>O votes</cell> <cell>T votes</cell>
+				<cell><m>W_O</m></cell> <cell><m>W_T</m></cell> <cell><m>W_O - W_T</m></cell>
+			</row>
+			<row>
+				<cell halign="center">1</cell> <cell></cell> <cell></cell>
+				<cell></cell> <cell></cell> <cell></cell>
+			</row>
+			<row>
+				<cell halign="center">2</cell> <cell></cell> <cell></cell>
+				<cell></cell> <cell></cell> <cell></cell>
+			</row>
+			<row>
+				<cell halign="center">3</cell> <cell></cell> <cell></cell>
+				<cell></cell> <cell></cell> <cell></cell>
+			</row>
+			<row>
+				<cell halign="center">4</cell> <cell></cell> <cell></cell>
+				<cell></cell> <cell></cell> <cell></cell>
+			</row>
+			<row>
+				<cell halign="center">5</cell> <cell></cell> <cell></cell>
+				<cell></cell> <cell></cell> <cell></cell>
+			</row>
+			<row>
+				<cell halign="center">TOTAL</cell> <cell></cell> <cell></cell>
+				<cell></cell> <cell></cell> <cell></cell>
+			</row>
+		 </tabular>
+            <p>
+				<ol>
+					<li>
+					  <p> 
+						 Does the calculation differentiate between the plans?
+                         h Does it show one plan as being <q>better</q> than the others?
+					  </p>
+						</li>
+                        <li>
+						       <p>
+								 If you were asked to chose which method better differentiates
+                                 your notion of compact, which would you use and why?
+							   </p>
+						</li>
+						<li>
+							<p>
+							 If you were to argue for a method of measurement that would be 
+                             able to identify whether or not a district was gerrymandered 
+                             and it wasn’t either of the ones we have looked at, what would
+                              it be? What would you be trying to identify?
+                            </p>
+                        </li>
+                    </ol>
+            </p>    
 </subsection>
